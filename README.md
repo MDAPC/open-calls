@@ -4,7 +4,10 @@ Grants, fellowships, jobs and support for journalists, checked every week.
 
 **Site:** https://mdapc.github.io/open-calls/
 
-**Beta.** This first version reads 32 journalism opportunity sites. A wider scanner, with more sources, is coming soon.
+**Beta.**
+
+- This first version reads 32 journalism opportunity sites. A wider scanner, with more sources, is coming soon.
+- The agentic scanner's code will be open sourced soon.
 
 ## How it works
 

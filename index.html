@@ -10,8 +10,8 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=IBM+Plex+Mono:wght@500;600&family=IBM+Plex+Sans+Arabic:wght@400;600&display=swap">
 <style>
-/* Light only, after the tiny-trm-security app: flat cream paper, a saturated yellow used as a block,
-   orange for the one live action, near-black hairlines, squared corners, a hard offset instead of a shadow. */
+/* Light only: flat cream paper, a saturated yellow used as a block, orange for the one live action,
+   near-black hairlines, squared corners, a hard offset instead of a shadow. */
 :root {
   --paper: #FDF3E5; --paper-low: #F8EBD9; --paper-mid: #F2E1CA; --paper-high: #EAD5BB;
   --ink: #1A1A1A; --ink-soft: #5C554A; --rule-faint: #C7B49B;
@@ -47,9 +47,11 @@ button, input, select { font: inherit; color: inherit; }
 .mast h1 { display: inline-block; margin: 26px 0 22px; padding: .06em .28em .02em; background: var(--yellow); border: 2px solid var(--ink); border-radius: 2px;
   box-shadow: 6px 6px 0 var(--ink); font-weight: 700; font-size: clamp(42px, 9vw, 92px); line-height: 1; letter-spacing: .03em; text-transform: uppercase; }
 .dek { font-size: clamp(19px, 2.2vw, 22px); line-height: 1.4; max-width: 46ch; margin: 0 0 12px; }
-.beta { display: flex; gap: 10px; align-items: baseline; max-width: 60ch; margin: 0 0 14px; padding: 9px 12px; background: var(--card);
+.beta { display: flex; gap: 10px; align-items: flex-start; max-width: 60ch; margin: 0 0 14px; padding: 9px 12px; background: var(--card);
   border: 1.5px solid var(--ink); border-radius: 2px; font-size: 15px; line-height: 1.45; }
-.beta b { flex: none; padding: 1px 7px; background: var(--orange); border: 1.5px solid var(--ink); border-radius: 2px; font: 600 11px/1.4 var(--f-mono); letter-spacing: .12em; }
+.beta ul { margin: 0; padding-inline-start: 18px; }
+.beta li + li { margin-top: 4px; }
+.beta b { flex: none; margin-top: 1px; padding: 1px 7px; background: var(--orange); border: 1.5px solid var(--ink); border-radius: 2px; font: 600 11px/1.4 var(--f-mono); letter-spacing: .12em; }
 .byline { font-size: 15px; color: var(--ink-soft); margin: 0; display: flex; flex-wrap: wrap; gap: 4px 16px; }
 .stats { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); margin-top: 22px; border-top: 2px solid var(--ink); border-bottom: 2px solid var(--ink); }
 .stat { padding: 12px 14px; border-inline-start: 1.5px solid var(--rule-faint); }
@@ -64,7 +66,8 @@ button, input, select { font: inherit; color: inherit; }
 .tab:hover { background: var(--paper-mid); color: var(--ink); }
 .tab[aria-selected="true"] { background: var(--ink); color: var(--paper); }
 .tab .n { font-size: 11px; font-weight: 500; margin-inline-start: 6px; opacity: .75; }
-@media (max-width: 480px) { .tab { padding: 9px 11px; font-size: 15px; } .tab .n { margin-inline-start: 4px; } }
+.t-short { display: none; }
+@media (max-width: 480px) { .tab { padding: 9px 11px; font-size: 15px; } .tab .n { margin-inline-start: 4px; } .t-long { display: none; } .t-short { display: inline; } }
 .view[hidden] { display: none; }
 
 /* Section heads sit on a block of yellow with an ink rule under it */
@@ -234,7 +237,10 @@ footer { margin-top: 52px; padding-block: 16px 34px; border-top: 2px solid var(-
   </div>
   <h1>Open Calls</h1>
   <p class="dek">Grants, fellowships, jobs and support for journalists. Read from <span id="nsrc">our</span> sources every week, checked one by one, with the organisation's own link for every call.</p>
-  <p class="beta"><b>BETA</b><span>This first version reads <span id="nsrc2">32</span> journalism sites. A wider scanner, with more sources, is coming soon.</span></p>
+  <div class="beta"><b>BETA</b><ul>
+    <li>This first version reads <span id="nsrc2">32</span> journalism sites. A wider scanner, with more sources, is coming soon.</li>
+    <li>The agentic scanner's code will be open sourced soon.</li>
+  </ul></div>
   <p class="byline"><span>Maintained by <a id="maint" href="#">Mahmoud Al Ashek</a></span><a href="#view=about" data-view="about">How this works</a><a href="feed.xml">RSS</a><a href="opportunities.json">Data (JSON)</a><a id="suggest" href="#">Suggest a source</a></p>
   <div class="stats" id="stats"></div>
 </header>
@@ -243,7 +249,7 @@ footer { margin-top: 52px; padding-block: 16px 34px; border-top: 2px solid var(-
   <div class="tablist">
     <a class="tab" href="#" data-view="calls" aria-selected="true">Open calls<span class="n" id="n-calls"></span></a>
     <a class="tab" href="#view=resources" data-view="resources" aria-selected="false">Resources<span class="n" id="n-res"></span></a>
-    <a class="tab" href="#view=about" data-view="about" aria-selected="false">How this works</a>
+    <a class="tab" href="#view=about" data-view="about" aria-selected="false"><span class="t-long">How this works</span><span class="t-short">About</span></a>
   </div>
 </nav>
 

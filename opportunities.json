@@ -10,7 +10,7 @@
  "repo": "https://github.com/MDAPC/open-calls",
  "site": "https://mdapc.github.io/open-calls/",
  "counts": {
-  "open": 62,
+  "open": 64,
   "watching": 9,
   "sites": 46,
   "weekly": 32
@@ -1976,6 +1976,64 @@
     "km"
    ],
    "summary": "Mongabay takes pitches for short environmental documentaries and vertical news videos, preferring early-stage proposals with shot list, timeline and budget.",
+   "source": {
+    "name": "HostWIRE (Hostwriter forum)",
+    "url": "https://hostwriter.org/"
+   },
+   "via_aggregator": true,
+   "first_seen": "2026-10-19",
+   "checked": "2026-10-19"
+  },
+  {
+   "id": "m-newamerica-care-2026",
+   "title": "Reporting Grants to Amplify Caregiving Stories",
+   "org": "New America, Better Life Lab",
+   "url": "https://www.newamerica.org/insights/care-journalists-apply-reporting-grants/",
+   "kind": "grant",
+   "deadline": null,
+   "deadline_note": "Rolling: stories commissioned from October 2026",
+   "open_to": "New and experienced journalists and storytellers; people with underrepresented perspectives especially encouraged",
+   "regions": [],
+   "who": [],
+   "format": null,
+   "amount": "About USD 1,000 per print or digital story, more for multimedia; paid on publication",
+   "topics": [
+    "health",
+    "economy"
+   ],
+   "languages": [],
+   "summary": "Funding, editing and placement help for solutions stories about child care and the wider care system, mainly in the US, in any medium.",
+   "source": {
+    "name": "Solutions Journalism Network",
+    "url": "https://www.solutionsjournalism.org/"
+   },
+   "via_aggregator": true,
+   "first_seen": "2026-10-19",
+   "checked": "2026-10-19"
+  },
+  {
+   "id": "m-mittr-automation-2027",
+   "title": "Pitch call: \"Automation\" theme, May/June 2027 issue",
+   "org": "MIT Technology Review",
+   "url": "https://www.technologyreview.com/how-to-pitch-mit-technology-review/",
+   "kind": "call",
+   "deadline": null,
+   "deadline_note": "Pitches due mid-November 2026",
+   "open_to": "Freelance writers of all levels and backgrounds; writers from outside the United States especially welcome",
+   "regions": [
+    "any"
+   ],
+   "who": [
+    "freelance"
+   ],
+   "format": "remote",
+   "amount": "USD 1 to 2 per word",
+   "topics": [
+    "tech-ai",
+    "science"
+   ],
+   "languages": [],
+   "summary": "Feature pitches of 2,500 to 4,000 words for the magazine's Automation issue: narrative features, investigations, profiles and reported essays.",
    "source": {
     "name": "HostWIRE (Hostwriter forum)",
     "url": "https://hostwriter.org/"
