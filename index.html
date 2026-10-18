@@ -1,0 +1,723 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Open Calls</title>
+<meta name="description" content="Grants, fellowships, jobs and support for journalists, checked every week.">
+<link rel="alternate" type="application/rss+xml" title="Open Calls" href="feed.xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=IBM+Plex+Mono:wght@500;600&family=IBM+Plex+Sans+Arabic:wght@400;600&display=swap">
+<style>
+/* Light only, after the tiny-trm-security app: flat cream paper, a saturated yellow used as a block,
+   orange for the one live action, near-black hairlines, squared corners, a hard offset instead of a shadow. */
+:root {
+  --paper: #FDF3E5; --paper-low: #F8EBD9; --paper-mid: #F2E1CA; --paper-high: #EAD5BB;
+  --ink: #1A1A1A; --ink-soft: #5C554A; --rule-faint: #C7B49B;
+  --yellow: #FFD24D; --orange: #EE5A24; --orange-press: #D94E1A;
+  --red: #C62828; --red-box: #FFD6CC;
+  --card: #FFFAF2; --line-soft: #E9DAC4;
+  --f-body: "Atkinson Hyperlegible", "IBM Plex Sans Arabic", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --f-mono: "IBM Plex Mono", ui-monospace, Menlo, Consolas, monospace;
+  color-scheme: light;
+}
+*, *::before, *::after { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+/* the paper grain sits behind the text, never on top of it */
+body { margin: 0; color: var(--ink); font: 16px/1.55 var(--f-body); background: var(--paper) url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='160' height='160'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 .1 0 0 0 0 .1 0 0 0 0 .1 0 0 0 .08 0'/></filter><rect width='100%25' height='100%25' filter='url(%23n)'/></svg>"); }
+a { color: var(--ink); text-decoration: underline; text-decoration-thickness: 1.5px; text-underline-offset: 3px; }
+a:hover { background: var(--yellow); }
+button, input, select { font: inherit; color: inherit; }
+:focus-visible { outline: 3px solid var(--orange); outline-offset: 2px; }
+.wrap { max-width: 1180px; margin: 0 auto; padding-inline: 16px; }
+@media (min-width: 700px) { .wrap { padding-inline: 28px; } }
+.mono { font-family: var(--f-mono); }
+.sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+/* the standing head: small letterspaced capitals, the way a paper labels a column */
+.mast-top, .kind, .sec-head p, .cov, footer, .stat span, .tab .n, .chip .n {
+  font-family: var(--f-mono); }
+
+/* Masthead */
+.mast { padding-block: 14px 0; }
+.mast-top { display: flex; flex-wrap: wrap; gap: 4px 18px; font-size: 11px; font-weight: 600; letter-spacing: .14em; text-transform: uppercase;
+  color: var(--ink-soft); border-bottom: 2px solid var(--ink); padding-bottom: 10px; }
+.mast-top .left { display: flex; flex-wrap: wrap; gap: 4px 16px; align-items: center; }
+.pill { display: inline-block; padding: 1px 6px; background: var(--yellow); color: var(--ink); border: 1.5px solid var(--ink); border-radius: 2px; }
+.mast h1 { display: inline-block; margin: 26px 0 22px; padding: .06em .28em .02em; background: var(--yellow); border: 2px solid var(--ink); border-radius: 2px;
+  box-shadow: 6px 6px 0 var(--ink); font-weight: 700; font-size: clamp(42px, 9vw, 92px); line-height: 1; letter-spacing: .03em; text-transform: uppercase; }
+.dek { font-size: clamp(19px, 2.2vw, 22px); line-height: 1.4; max-width: 46ch; margin: 0 0 12px; }
+.beta { display: flex; gap: 10px; align-items: baseline; max-width: 60ch; margin: 0 0 14px; padding: 9px 12px; background: var(--card);
+  border: 1.5px solid var(--ink); border-radius: 2px; font-size: 15px; line-height: 1.45; }
+.beta b { flex: none; padding: 1px 7px; background: var(--orange); border: 1.5px solid var(--ink); border-radius: 2px; font: 600 11px/1.4 var(--f-mono); letter-spacing: .12em; }
+.byline { font-size: 15px; color: var(--ink-soft); margin: 0; display: flex; flex-wrap: wrap; gap: 4px 16px; }
+.stats { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); margin-top: 22px; border-top: 2px solid var(--ink); border-bottom: 2px solid var(--ink); }
+.stat { padding: 12px 14px; border-inline-start: 1.5px solid var(--rule-faint); }
+.stat:first-child { border-inline-start: 0; padding-inline-start: 0; }
+.stat b { display: block; font-weight: 700; font-size: clamp(28px, 4vw, 38px); line-height: 1.05; }
+.stat span { display: block; line-height: 1.45; font-size: 11px; font-weight: 600; letter-spacing: .12em; text-transform: uppercase; color: var(--ink-soft); }
+
+/* Tabs: the active one reversed out of a solid slug */
+.tabs { margin-top: 24px; }
+.tablist { display: flex; gap: 4px; box-shadow: inset 0 -2px 0 var(--ink); overflow-x: auto; overflow-y: hidden; scrollbar-width: none; }
+.tab { padding: 10px 16px; border-radius: 2px 2px 0 0; font-weight: 700; font-size: 16px; color: var(--ink-soft); white-space: nowrap; text-decoration: none; }
+.tab:hover { background: var(--paper-mid); color: var(--ink); }
+.tab[aria-selected="true"] { background: var(--ink); color: var(--paper); }
+.tab .n { font-size: 11px; font-weight: 500; margin-inline-start: 6px; opacity: .75; }
+@media (max-width: 480px) { .tab { padding: 9px 11px; font-size: 15px; } .tab .n { margin-inline-start: 4px; } }
+.view[hidden] { display: none; }
+
+/* Section heads sit on a block of yellow with an ink rule under it */
+h2 { display: inline-block; margin: 0; padding: 5px 12px 4px; background: var(--yellow); box-shadow: inset 0 -2px 0 var(--ink);
+  font-weight: 700; font-size: 22px; line-height: 1.25; }
+.sec-head { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: baseline; gap: 8px 12px; margin-bottom: 14px; }
+.sec-head p { margin: 0; font-size: 11px; font-weight: 600; letter-spacing: .12em; text-transform: uppercase; color: var(--ink-soft); }
+.lede { margin: 10px 0 14px; color: var(--ink-soft); font-size: 15px; max-width: 72ch; }
+
+/* Closing soon */
+.soon { margin-top: 30px; }
+.soon-row { display: grid; grid-auto-flow: column; grid-auto-columns: minmax(240px, 276px); gap: 14px; overflow-x: auto; padding: 2px 6px 10px 2px; scroll-snap-type: x proximity; }
+.soon-card { scroll-snap-align: start; background: var(--card); border: 1px solid var(--rule-faint); border-radius: 2px; padding: 12px 14px 14px; display: flex; flex-direction: column; gap: 8px; }
+.when, .due { display: inline-block; align-self: flex-start; padding: 2px 7px; border: 1.5px solid var(--ink); border-radius: 2px; background: var(--yellow);
+  font: 600 11.5px/1.3 var(--f-mono); letter-spacing: .06em; text-transform: uppercase; white-space: nowrap; color: var(--ink); }
+.soon-card.urgent .when, .due.urgent { background: var(--orange); }
+.soon-card a { color: var(--ink); text-decoration: none; font-weight: 700; font-size: 17px; line-height: 1.3; }
+.soon-card a:hover { text-decoration: underline; background: none; }
+.soon-card .who { font-size: 14px; color: var(--ink-soft); margin-top: auto; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+.empty-soon { color: var(--ink-soft); font-size: 15px; }
+
+/* Keys: yellow when ready, orange when live; depth is a hard offset that pressing removes */
+.key { display: inline-flex; align-items: center; gap: 7px; padding: 7px 12px; background: var(--yellow); color: var(--ink); border: 2px solid var(--ink); border-radius: 2px;
+  box-shadow: 3px 3px 0 var(--ink); cursor: pointer; font-weight: 700; font-size: 14.5px; }
+.key:hover { background: var(--orange); }
+.key:active { transform: translate(3px, 3px); box-shadow: none; background: var(--orange-press); }
+
+/* Layout. On phones the filters are a sheet that rises from a bar at the bottom of the screen. */
+.layout { margin-top: 30px; }
+.sheet-head { display: none; }
+.sheet-foot { padding-top: 2px; }
+.sheet-foot .key, .mbar { display: none; }
+@media (max-width: 979px) {
+  .filters { position: fixed; inset: 0; z-index: 70; display: flex; flex-direction: column; background: var(--paper);
+    transform: translateY(100%); visibility: hidden; transition: transform .22s ease, visibility 0s linear .22s; }
+  .filters.open { transform: none; visibility: visible; transition: transform .22s ease; }
+  .sheet-head { display: flex; justify-content: space-between; align-items: center; padding: 10px 16px; border-bottom: 2px solid var(--ink); font-size: 19px; font-weight: 700; }
+  .sheet-close { width: 44px; height: 44px; border: 2px solid var(--ink); border-radius: 2px; background: var(--card); font-size: 26px; line-height: 1; cursor: pointer; }
+  .sheet-body { flex: 1; overflow-y: auto; overscroll-behavior: contain; padding: 18px 16px 8px; }
+  .sheet-foot { display: flex; justify-content: space-between; align-items: center; gap: 12px; padding: 12px 16px calc(12px + env(safe-area-inset-bottom)); border-top: 2px solid var(--ink); background: var(--paper); }
+  .sheet-foot .key { display: inline-flex; padding: 11px 18px; font-size: 16px; }
+  .chip { min-height: 40px; padding: 7px 12px; font-size: 15px; }
+  .mbar { position: fixed; inset-inline: 0; bottom: 0; z-index: 30; display: flex; align-items: center; gap: 12px;
+    padding: 10px 16px calc(10px + env(safe-area-inset-bottom)); background: var(--paper); border-top: 2px solid var(--ink); }
+  .mbar[hidden] { display: none; }
+  .mbar .key { padding: 10px 16px; font-size: 16px; }
+  .mcount { flex: 1; font-size: 14.5px; color: var(--ink-soft); }
+  .mbar-saved { min-height: 44px; padding: 8px 14px; border: 1.5px solid var(--rule-faint); border-radius: 2px; background: var(--card); font-weight: 700; font-size: 15px; cursor: pointer; }
+  .mbar-saved[aria-pressed="true"] { background: var(--ink); color: var(--paper); border-color: var(--ink); }
+  body.with-mbar { padding-bottom: 84px; }
+}
+@media (min-width: 980px) {
+  .layout { display: grid; grid-template-columns: 276px minmax(0, 1fr); gap: 40px; align-items: start; }
+  .side { position: sticky; top: 14px; max-height: calc(100vh - 28px); overflow: auto; padding: 2px 4px 2px 2px; }
+}
+.fgroup { border: 0; margin: 0 0 22px; padding: 0; min-width: 0; }
+.fgroup legend, .flabel { display: block; padding: 0; margin-bottom: 9px; font-size: 15px; font-weight: 700; color: var(--ink); }
+.chips { display: flex; flex-wrap: wrap; gap: 7px; }
+.chip { display: inline-flex; align-items: center; gap: 6px; padding: 5px 10px; border: 1.5px solid var(--rule-faint); border-radius: 2px; background: var(--card);
+  cursor: pointer; font-size: 14px; line-height: 1.3; }
+.chip:hover { border-color: var(--ink); }
+.chip[aria-pressed="true"] { background: var(--ink); color: var(--paper); border-color: var(--ink); }
+.chip .n { font-size: 11px; color: var(--ink-soft); }
+.chip[aria-pressed="true"] .n { color: inherit; opacity: .75; }
+.chip[disabled] { opacity: .4; cursor: default; }
+.chip[disabled]:hover { border-color: var(--rule-faint); }
+.field { width: 100%; padding: 9px 12px; border: 2px solid var(--ink); border-radius: 2px; background: #FFFAF2; }
+.check { display: flex; gap: 8px; align-items: flex-start; font-size: 14.5px; color: var(--ink-soft); margin-top: 9px; cursor: pointer; }
+.check input { margin-top: 4px; accent-color: var(--ink); }
+.clear { background: none; border: 0; padding: 0; cursor: pointer; font-size: 15px; font-weight: 700; text-decoration: underline; text-decoration-thickness: 1.5px; text-underline-offset: 3px; }
+.clear:hover { background: var(--yellow); }
+
+/* Results */
+.results-head { display: flex; flex-wrap: wrap; gap: 10px 16px; justify-content: space-between; align-items: center; margin-bottom: 16px; }
+.results-head .count { margin: 0; font-size: 15px; color: var(--ink-soft); }
+.results-head .count b { color: var(--ink); }
+.results-head .tools { display: flex; gap: 12px; align-items: center; }
+.results-head select { padding: 7px 10px; border: 2px solid var(--ink); border-radius: 2px; background: #FFFAF2; font-size: 14.5px; }
+.list { list-style: none; margin: 0; padding: 0; }
+.card { background: var(--card); border: 1px solid var(--rule-faint); border-radius: 3px; padding: 18px 20px 14px; margin-bottom: 16px; }
+.card.flash { outline: 3px solid var(--orange); outline-offset: 3px; }
+.card-top { display: flex; align-items: center; gap: 10px; font-size: 14px; color: var(--ink-soft); }
+.kind { display: inline-block; color: var(--ink); font-size: 11.5px; font-weight: 600; letter-spacing: .12em; text-transform: uppercase; }
+.new { padding: 2px 6px; border: 1.5px solid var(--ink); border-radius: 2px; background: var(--yellow); color: var(--ink); font: 600 11px/1.3 var(--f-mono); letter-spacing: .1em; text-transform: uppercase; }
+.save { margin-inline-start: auto; background: none; border: 0; padding: 4px; cursor: pointer; color: var(--ink); display: inline-flex; }
+.save svg { width: 21px; height: 21px; }
+.save[aria-pressed="true"] svg path { fill: var(--orange); }
+.card h3 { font-weight: 700; font-size: 20px; line-height: 1.28; margin: 8px 0 6px; }
+.card h3 a { color: var(--ink); text-decoration: none; }
+.card h3 a:hover { text-decoration: underline; background: none; }
+.card .ext { width: 13px; height: 13px; vertical-align: 1px; color: var(--ink-soft); margin-inline-start: 4px; }
+.sum { margin: 0 0 14px; font-size: 16.5px; line-height: 1.55; max-width: 66ch; }
+/* facts read as rows: label, then the full width for the answer */
+.meta { display: grid; grid-template-columns: 8.5em minmax(0, 1fr); gap: 8px 16px; margin: 0 0 14px; padding-top: 12px; border-top: 1px solid var(--line-soft); }
+.meta > div { display: contents; }
+.meta dt { font-size: 14.5px; font-weight: 700; color: var(--ink-soft); }
+.meta dd { margin: 0; font-size: 15.5px; line-height: 1.5; max-width: 62ch; }
+.due { margin-inline-start: 6px; padding: 1px 6px; font-size: 11px; }
+.unstated { color: var(--ink-soft); font-style: italic; }
+.dnote { display: block; font-size: 13.5px; line-height: 1.4; color: var(--ink-soft); margin-top: 3px; }
+.card-foot { display: flex; flex-wrap: wrap; gap: 6px 16px; align-items: center; border-top: 1px solid var(--line-soft); padding-top: 9px; font-size: 13.5px; color: var(--ink-soft); }
+.card-foot .topics { flex: 1 1 220px; }
+.card-foot .acts { display: flex; gap: 16px; }
+.act { background: none; border: 0; padding: 3px 0; cursor: pointer; color: var(--ink); font-weight: 700; font-size: 13.5px; display: inline-flex; gap: 6px; align-items: center; }
+.act svg { width: 15px; height: 15px; }
+.act:hover { text-decoration: underline; text-underline-offset: 3px; }
+.src a { color: var(--ink-soft); }
+.empty { padding: 36px 18px; text-align: center; color: var(--ink-soft); border: 2px dashed var(--rule-faint); border-radius: 2px; }
+.closed-note { font-size: 14px; color: var(--ink-soft); margin: 6px 0 0; }
+.loading { padding: 40px 0; color: var(--ink-soft); }
+
+/* Not open right now */
+.more { margin-top: 56px; padding-top: 26px; border-top: 2px solid var(--ink); }
+.watch { list-style: none; margin: 0; padding: 0; border-top: 2px solid var(--ink); }
+.watch li { display: grid; gap: 2px 18px; padding: 12px 0; border-bottom: 1.5px solid var(--rule-faint); }
+@media (min-width: 760px) { .watch li { grid-template-columns: 220px minmax(0, 1fr) minmax(0, 1fr); } }
+.watch .org { font-weight: 700; }
+.watch .st { color: var(--ink-soft); font-size: 15px; }
+
+/* Resources directory */
+.dir { margin-top: 28px; }
+.dir-tools { display: flex; flex-wrap: wrap; gap: 10px 14px; align-items: center; margin: 16px 0 10px; }
+.dir-tools .field { max-width: 300px; }
+.dir-group { margin-top: 30px; }
+.dir-group h3 { font-weight: 700; font-size: 21px; margin: 0 0 8px; }
+.dir-group h3 .n { font: 500 12px var(--f-mono); color: var(--ink-soft); margin-inline-start: 6px; }
+.dir-list { list-style: none; margin: 0; padding: 0; border-top: 2px solid var(--ink); }
+.dir-list li { display: grid; gap: 6px 24px; padding: 12px 0; border-bottom: 1.5px solid var(--rule-faint); }
+@media (min-width: 760px) { .dir-list li { grid-template-columns: minmax(0, 1fr) 230px; } }
+.dir-list a { font-weight: 700; }
+.dir-list p { margin: 3px 0 0; color: var(--ink-soft); font-size: 15px; max-width: 70ch; }
+.cov { display: inline-flex; gap: 8px; align-items: center; font-size: 11px; font-weight: 600; letter-spacing: .12em; text-transform: uppercase; color: var(--ink); }
+.cov::before { content: ""; width: 9px; height: 9px; border: 1.5px solid var(--ink); flex: none; }
+.cov.weekly::before { background: var(--ink); }
+.cov.members::before, .cov.paywall::before { background: var(--orange); }
+.cov.failed { color: var(--red); } .cov.failed::before { background: var(--red); border-color: var(--red); }
+.cov-sub { display: block; font-size: 13px; color: var(--ink-soft); margin-top: 3px; }
+
+/* How this works */
+.about { max-width: 72ch; margin-top: 28px; }
+.about h3 { font-weight: 700; font-size: 19px; margin: 22px 0 4px; }
+.about p { margin: 0 0 10px; }
+footer { margin-top: 52px; padding-block: 16px 34px; border-top: 2px solid var(--ink); font-size: 11px; font-weight: 600; line-height: 1.6; color: var(--ink-soft); text-transform: uppercase; letter-spacing: .12em; }
+.toast { position: fixed; inset-inline: 0; bottom: 18px; margin: 0 auto; width: max-content; max-width: calc(100% - 32px); background: var(--ink); color: var(--paper);
+  padding: 9px 14px; border-radius: 2px; font-size: 15px; opacity: 0; transform: translateY(8px); transition: opacity .18s, transform .18s; pointer-events: none; z-index: 60; }
+.toast.show { opacity: 1; transform: none; }
+@media (prefers-reduced-motion: reduce) { .toast { transition: none; } }
+/* phones: placed last so it wins over the card rules above */
+@media (max-width: 560px) {
+  .mast h1 { margin: 18px 0 16px; box-shadow: 4px 4px 0 var(--ink); }
+  .dek { font-size: 17.5px; }
+  .stat { padding: 10px 8px; }
+  .card { padding: 16px 16px 12px; }
+  .card h3 { font-size: 19px; }
+  .meta { grid-template-columns: 1fr; gap: 0; }
+  .meta dt { margin-top: 10px; font-size: 13.5px; }
+  .meta > div:first-child dt { margin-top: 0; }
+  .card-foot .acts { width: 100%; justify-content: flex-start; gap: 22px; }
+  .act { min-height: 40px; font-size: 14.5px; }
+}
+</style>
+</head>
+<body>
+<header class="mast wrap">
+  <div class="mast-top">
+    <div class="left"><span id="edition">Loading</span><span id="next"></span></div>
+  </div>
+  <h1>Open Calls</h1>
+  <p class="dek">Grants, fellowships, jobs and support for journalists. Read from <span id="nsrc">our</span> sources every week, checked one by one, with the organisation's own link for every call.</p>
+  <p class="beta"><b>BETA</b><span>This first version reads <span id="nsrc2">32</span> journalism sites. A wider scanner, with more sources, is coming soon.</span></p>
+  <p class="byline"><span>Maintained by <a id="maint" href="#">Mahmoud Al Ashek</a></span><a href="#view=about" data-view="about">How this works</a><a href="feed.xml">RSS</a><a href="opportunities.json">Data (JSON)</a><a id="suggest" href="#">Suggest a source</a></p>
+  <div class="stats" id="stats"></div>
+</header>
+
+<nav class="tabs wrap" aria-label="Sections">
+  <div class="tablist">
+    <a class="tab" href="#" data-view="calls" aria-selected="true">Open calls<span class="n" id="n-calls"></span></a>
+    <a class="tab" href="#view=resources" data-view="resources" aria-selected="false">Resources<span class="n" id="n-res"></span></a>
+    <a class="tab" href="#view=about" data-view="about" aria-selected="false">How this works</a>
+  </div>
+</nav>
+
+<div class="view" data-panel="calls">
+<section class="soon wrap" aria-labelledby="soon-h">
+  <div class="sec-head"><h2 id="soon-h">Closing in the next two weeks</h2><p>Dated calls only</p></div>
+  <div class="soon-row" id="soon"></div>
+</section>
+
+<main class="wrap layout">
+  <div class="side">
+    <aside class="filters" id="filters" aria-label="Filters">
+      <div class="sheet-head"><span>Filters</span><button class="sheet-close" id="sheetClose" type="button" aria-label="Close filters">&times;</button></div>
+      <div class="sheet-body">
+      <div class="fgroup">
+        <label class="flabel" for="q">Search</label>
+        <input class="field" id="q" type="search" placeholder="Title, organisation, topic" autocomplete="off">
+      </div>
+      <fieldset class="fgroup"><legend>Type</legend><div class="chips" data-group="type"></div></fieldset>
+      <div class="fgroup">
+        <label class="flabel" for="region">Where you are based</label>
+        <select class="field" id="region"></select>
+        <label class="check"><input type="checkbox" id="ns" checked> Include calls that do not say who can apply</label>
+      </div>
+      <fieldset class="fgroup"><legend>Open to</legend><div class="chips" data-group="who"></div></fieldset>
+      <fieldset class="fgroup"><legend>Topic</legend><div class="chips" data-group="topics"></div></fieldset>
+      <fieldset class="fgroup"><legend>Deadline</legend><div class="chips" data-group="due"></div></fieldset>
+      <fieldset class="fgroup"><legend>Format</legend><div class="chips" data-group="fmt"></div></fieldset>
+      <div class="fgroup">
+        <label class="check"><input type="checkbox" id="savedOnly"> Only my saved calls <span id="nsaved" class="mono"></span></label>
+      </div>
+      </div>
+      <div class="sheet-foot"><button class="clear" id="clear" type="button">Clear all filters</button><button class="key" id="showres" type="button">Show results</button></div>
+    </aside>
+  </div>
+  <section aria-label="Opportunities">
+    <div class="results-head">
+      <p class="count" id="count" aria-live="polite"></p>
+      <div class="tools">
+        <label class="sr" for="sort">Sort</label>
+        <select id="sort">
+          <option value="deadline">Closing soonest</option>
+          <option value="new">Newest first</option>
+          <option value="org">Organisation A to Z</option>
+        </select>
+        <button class="key" id="share" type="button">
+          <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M10 14a5 5 0 0 0 7 0l3-3a5 5 0 0 0-7-7l-1 1"/><path d="M14 10a5 5 0 0 0-7 0l-3 3a5 5 0 0 0 7 7l1-1"/></svg>
+          Share this view</button>
+      </div>
+    </div>
+    <ol class="list" id="list"><li class="loading">Loading the list…</li></ol>
+    <p class="closed-note" id="closedNote"></p>
+  </section>
+</main>
+
+<div class="wrap more">
+  <section aria-labelledby="watch-h">
+    <h2 id="watch-h">Not open right now</h2>
+    <p class="lede">Programmes we check every week. They have no open call at the moment; when one opens, it moves to the list above.</p>
+    <ul class="watch" id="watch"></ul>
+  </section>
+</div>
+</div>
+
+<div class="view" data-panel="resources" hidden>
+  <section class="wrap dir" aria-labelledby="dir-h">
+    <h2 id="dir-h">Resources</h2>
+    <p class="lede">Every site on our list. Sites marked <b>Checked weekly</b> feed the open calls; the others are worth visiting yourself, and the note says why. A red mark means we could not read that site this week: it does not mean there are no calls there.</p>
+    <div class="dir-tools">
+      <input class="field" id="dq" type="search" placeholder="Search sites" autocomplete="off" aria-label="Search sites">
+      <div class="chips" id="dcov"></div>
+    </div>
+    <div class="chips" id="dcat"></div>
+    <div id="dir"></div>
+  </section>
+</div>
+
+<div class="view" data-panel="about" hidden>
+  <section class="wrap about about-view" aria-labelledby="about-h">
+    <h2 id="about-h">How this works</h2>
+    <h3>Read, then checked</h3>
+    <p>Every week a script reads the sites marked Checked weekly under Resources. Each new item is then opened and checked: is it a real open call, when does it close, who can apply, and what is the organisation's own page. News stories, past winners and closed calls are left out. Where a page does not say something, the card says "not stated" rather than guessing.</p>
+    <p>Some calls first reach us through Hostwriter's members' forum, HostWIRE. We list one only when the organisation's own public page states it, and the card links to that page. Nothing from the forum itself is published.</p>
+    <h3>Always confirm before you apply</h3>
+    <p>Deadlines and rules change. Treat each card as a pointer and read the call on the organisation's own page before applying. Times zones on deadlines are rarely stated: aim for a day early.</p>
+    <h3>Never pay to apply</h3>
+    <p>Genuine grants and fellowships do not charge application fees. If a listing here asks you for money, do not pay, and tell us so we can remove it.</p>
+    <h3>Privacy</h3>
+    <p>No accounts, no tracking, no cookies. The calls you save stay in your own browser.</p>
+    <h3>Help</h3>
+    <p>Spotted a mistake, a closed call, or a source we should read? <a id="mailme" href="#">Write to us</a>. The data is free to reuse: <a href="opportunities.json">opportunities.json</a> and the <a href="feed.xml">RSS feed</a> update with every edition.</p>
+  </section>
+</div>
+<nav class="mbar" id="mbar" aria-label="Filters and saved calls">
+  <button class="key" id="mfilters" type="button" aria-controls="filters" aria-expanded="false">Filters<span id="fcount" class="mono"></span></button>
+  <span class="mcount" id="mcount"></span>
+  <button class="mbar-saved" id="msaved" type="button" aria-pressed="false">Saved <span id="msavedn" class="mono"></span></button>
+</nav>
+<footer class="wrap"><span id="foot"></span></footer>
+<div class="toast" id="toast" role="status"></div>
+
+<script>
+(() => {
+  'use strict';
+  const $ = (s, el = document) => el.querySelector(s);
+  const esc = (s) => String(s == null ? '' : s).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+
+  const KIND = { grant: 'Grant', fellowship: 'Fellowship', job: 'Job', award: 'Award', training: 'Training', residency: 'Residency', support: 'Support', call: 'Call' };
+  const REGION = { europe: 'Europe', mena: 'Middle East and North Africa', africa: 'Africa', asia: 'Asia', latam: 'Latin America', 'north-america': 'North America', oceania: 'Oceania' };
+  const WHO = { freelance: 'Freelancers', exiled: 'Exiled journalists', women: 'Women', 'early-career': 'Early career', staff: 'Staff journalists', newsroom: 'Newsrooms', students: 'Students', photographers: 'Photographers', 'media-managers': 'Media managers' };
+  const TOPIC = { investigative: 'Investigative', 'conflict-rights': 'Conflict and rights', environment: 'Environment', 'tech-ai': 'Tech and AI', 'data-osint': 'Data and OSINT', health: 'Health', economy: 'Economy', science: 'Science', local: 'Local news', 'media-business': 'Newsroom development', safety: 'Safety and wellbeing', visual: 'Photo and visual' };
+  const DUE = { 14: 'Next two weeks', 31: 'Next month', none: 'Rolling or no date' };
+  const FMT = { remote: 'Remote', person: 'In person' };
+  const MULTI = new Set(['who', 'topics']);
+  const CAT = { funders: 'Grants and fellowships', lists: 'Opportunity lists', jobs: 'Jobs and careers', networks: 'Networks and support', training: 'Training and study', freelance: 'Freelance and pitching', tools: 'Tools' };
+  const COV = {
+    weekly: ['Checked weekly', (d) => d.failed ? 'Could not read it this week' : d.last_ok ? 'Read ' + fmtDate(d.last_ok, false) : ''],
+    members: ['Members only', () => 'Join Hostwriter to read it'],
+    paywall: ['Visit directly', () => 'Most current calls need a paid membership'],
+    direct: ['Visit directly', () => 'Not part of the weekly check'],
+  };
+
+  const DAY = 86400000;
+  const now = new Date();
+  const TODAY = new Date(now.getTime() - now.getTimezoneOffset() * 60000).toISOString().slice(0, 10);
+  const daysTo = (iso) => Math.round((Date.parse(iso + 'T00:00:00Z') - Date.parse(TODAY + 'T00:00:00Z')) / DAY);
+  const fmtDate = (iso, year = true) => new Date(iso + 'T00:00:00Z').toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: year ? 'numeric' : undefined, timeZone: 'UTC' });
+  const dueText = (d) => d === 0 ? 'closes today' : d === 1 ? 'closes tomorrow' : `in ${d} days`;
+  let langName = (c) => c;
+  try { const dn = new Intl.DisplayNames(['en'], { type: 'language' }); langName = (c) => dn.of(c) || c; } catch (e) { /* older browsers show codes */ }
+
+  const ls = {
+    get(k, d) { try { const v = localStorage.getItem(k); return v == null ? d : JSON.parse(v); } catch (e) { return d; } },
+    set(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch (e) { /* private mode */ } },
+  };
+
+  const ICON = {
+    star: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" aria-hidden="true"><path d="M12 3.5l2.6 5.3 5.9.9-4.3 4.1 1 5.8L12 16.9l-5.2 2.7 1-5.8-4.3-4.1 5.9-.9z"/></svg>',
+    cal: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3.5" y="5" width="17" height="15" rx="2"/><path d="M3.5 10h17M8 3v4M16 3v4"/></svg>',
+    link: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M10 14a5 5 0 0 0 7 0l3-3a5 5 0 0 0-7-7l-1 1"/><path d="M14 10a5 5 0 0 0-7 0l-3 3a5 5 0 0 0 7 7l1-1"/></svg>',
+    ext: '<svg class="ext" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M14 4h6v6M20 4l-9 9M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5"/></svg>',
+  };
+
+  let DATA = null;
+  let ITEMS = [];
+  let closedSince = 0;
+  const saved = new Set(ls.get('oc.saved', []));
+  const blank = () => ({ q: '', type: '', region: '', ns: true, who: [], topics: [], due: '', fmt: '', saved: false, sort: 'deadline' });
+  let state = blank();
+  let focusItem = null;
+  let view = 'calls';
+  const dstate = { q: '', cov: '', cat: '' };
+
+  /* ---------- URL state ---------- */
+  function readHash() {
+    const p = new URLSearchParams(location.hash.slice(1));
+    const s = blank();
+    if (p.get('q')) s.q = p.get('q');
+    for (const k of ['type', 'region', 'due', 'fmt']) if (p.get(k)) s[k] = p.get(k);
+    for (const k of ['who', 'topics']) if (p.get(k)) s[k] = p.get(k).split(',').filter(Boolean);
+    if (p.get('ns') === '0') s.ns = false;
+    if (p.get('saved') === '1') s.saved = true;
+    if (p.get('sort')) s.sort = p.get('sort');
+    focusItem = p.get('item');
+    view = ['resources', 'about'].includes(p.get('view')) && !focusItem ? p.get('view') : 'calls';
+    return s;
+  }
+  function writeHash() {
+    const p = new URLSearchParams();
+    if (view !== 'calls') p.set('view', view);
+    if (state.q) p.set('q', state.q);
+    for (const k of ['type', 'region', 'due', 'fmt']) if (state[k]) p.set(k, state[k]);
+    for (const k of ['who', 'topics']) if (state[k].length) p.set(k, state[k].join(','));
+    if (!state.ns) p.set('ns', '0');
+    if (state.saved) p.set('saved', '1');
+    if (state.sort !== 'deadline') p.set('sort', state.sort);
+    const h = p.toString();
+    if (!h && !location.hash.includes('=')) return; // leave plain anchors such as #about alone
+    history.replaceState(null, '', h ? '#' + h : location.pathname + location.search);
+  }
+
+  /* ---------- Filtering ---------- */
+  function matches(x, skip) {
+    if (skip !== 'type' && state.type && x.kind !== state.type) return false;
+    if (state.region) {
+      if (x.regions.length) { if (!x.regions.includes('any') && !x.regions.includes(state.region)) return false; }
+      else if (!state.ns) return false;
+    }
+    if (skip !== 'who' && state.who.length && !state.who.some((w) => x.who.includes(w))) return false;
+    if (skip !== 'topics' && state.topics.length && !state.topics.some((t) => x.topics.includes(t))) return false;
+    if (skip !== 'due' && state.due) {
+      const d = x.deadline ? daysTo(x.deadline) : null;
+      if (state.due === 'none' ? !!x.deadline : !(d !== null && d <= Number(state.due))) return false;
+    }
+    if (skip !== 'fmt' && state.fmt) {
+      const f = (x.format || '').toLowerCase();
+      if (state.fmt === 'remote' && !f.startsWith('remote')) return false;
+      if (state.fmt === 'person' && !/^(in person|hybrid)/.test(f)) return false;
+    }
+    if (state.saved && !saved.has(x.id)) return false;
+    if (state.q) {
+      const hay = [x.title, x.org, x.summary, x.open_to, x.amount, x.format, ...x.topics.map((t) => TOPIC[t] || t)].join(' ').toLowerCase();
+      if (!state.q.toLowerCase().split(/\s+/).filter(Boolean).every((w) => hay.includes(w))) return false;
+    }
+    return true;
+  }
+  const facet = (group, value, x) => {
+    if (group === 'type') return x.kind === value;
+    if (group === 'who') return x.who.includes(value);
+    if (group === 'topics') return x.topics.includes(value);
+    if (group === 'due') { const d = x.deadline ? daysTo(x.deadline) : null; return value === 'none' ? !x.deadline : d !== null && d <= Number(value); }
+    if (group === 'fmt') { const f = (x.format || '').toLowerCase(); return value === 'remote' ? f.startsWith('remote') : /^(in person|hybrid)/.test(f); }
+    return false;
+  };
+  function sortItems(arr) {
+    const byDeadline = (a, b) => (a.deadline ? 0 : 1) - (b.deadline ? 0 : 1) || (a.deadline || '').localeCompare(b.deadline || '') || a.org.localeCompare(b.org);
+    if (state.sort === 'new') return arr.sort((a, b) => b.first_seen.localeCompare(a.first_seen) || byDeadline(a, b));
+    if (state.sort === 'org') return arr.sort((a, b) => a.org.localeCompare(b.org) || a.title.localeCompare(b.title));
+    return arr.sort(byDeadline);
+  }
+
+  /* ---------- Rendering ---------- */
+  function renderFilters() {
+    const groups = { type: KIND, who: WHO, topics: TOPIC, due: DUE, fmt: FMT };
+    for (const [group, labels] of Object.entries(groups)) {
+      const box = document.querySelector(`.chips[data-group="${group}"]`);
+      const base = ITEMS.filter((x) => matches(x, group));
+      const present = Object.keys(labels).filter((v) => ITEMS.some((x) => facet(group, v, x)));
+      box.innerHTML = present.map((v) => {
+        const n = base.filter((x) => facet(group, v, x)).length;
+        const on = MULTI.has(group) ? state[group].includes(v) : state[group] === v;
+        const dot = '';
+        return `<button class="chip" type="button" data-group="${group}" data-value="${v}" aria-pressed="${on}"${!n && !on ? ' disabled' : ''}>${dot}${esc(labels[v])}<span class="n">${n}</span></button>`;
+      }).join('');
+    }
+    const active = ['type', 'region', 'due', 'fmt'].filter((k) => state[k]).length + state.who.length + state.topics.length + (state.q ? 1 : 0) + (state.saved ? 1 : 0);
+    $('#fcount').textContent = active ? ` (${active})` : '';
+    $('#msavedn').textContent = saved.size || '';
+    $('#nsaved').textContent = saved.size ? `(${saved.size})` : '';
+  }
+
+  function card(x) {
+    const d = x.deadline ? daysTo(x.deadline) : null;
+    const dueCls = d !== null && d <= 7 ? 'urgent' : d !== null && d <= 14 ? 'soon' : '';
+    const deadline = x.deadline
+      ? `<time datetime="${x.deadline}">${fmtDate(x.deadline)}</time>${dueCls ? `<span class="due ${dueCls}">${dueText(d)}</span>` : ''}${x.deadline_note ? `<span class="dnote">${esc(x.deadline_note)}</span>` : ''}`
+      : x.deadline_note ? esc(x.deadline_note[0].toUpperCase() + x.deadline_note.slice(1)) : '<span class="unstated">Not stated</span>';
+    const openTo = x.open_to ? esc(x.open_to) : '<span class="unstated">Not stated: check the call</span>';
+    const moneyLabel = /\b(fee|cost)\b/i.test(x.amount || '') ? 'Cost' : x.kind === 'job' ? 'Pay' : x.kind === 'award' ? 'Prize' : 'Funding';
+    const meta = [
+      ['Deadline', deadline],
+      ['Who can apply', openTo],
+      x.amount ? [moneyLabel, esc(x.amount)] : null,
+      x.format ? ['Where', esc(x.format[0].toUpperCase() + x.format.slice(1))] : null,
+      x.languages.length ? ['Apply in', esc(x.languages.map(langName).join(', '))] : null,
+    ].filter(Boolean).map(([k, v]) => `<div><dt>${k}</dt><dd>${v}</dd></div>`).join('');
+    const isNew = DATA.previous_update && x.first_seen > DATA.previous_update;
+    const topics = x.topics.map((t) => TOPIC[t] || t).join(' · ');
+    const on = saved.has(x.id);
+    return `<li class="card" id="c-${x.id}">
+      <div class="card-top">
+        <span class="kind">${esc(KIND[x.kind] || x.kind)}</span>
+        <span>${esc(x.org)}</span>${isNew ? '<span class="new">New</span>' : ''}
+        <button class="save" type="button" data-act="save" data-id="${x.id}" aria-pressed="${on}" aria-label="${on ? 'Remove from saved' : 'Save'}: ${esc(x.title)}">${ICON.star}</button>
+      </div>
+      <h3><a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.title)}${ICON.ext}</a></h3>
+      <p class="sum">${esc(x.summary)}</p>
+      <dl class="meta">${meta}</dl>
+      <div class="card-foot">
+        <span class="topics">${esc(topics)}</span>
+        <span class="src">${x.via_aggregator ? 'Found via' : 'Source:'} <a href="${esc(x.source.url || x.url)}" target="_blank" rel="noopener">${esc(x.source.name.replace(/:.*$/, ''))}</a> · checked ${fmtDate(x.checked, false)}</span>
+        <span class="acts">
+          ${x.deadline ? `<button class="act" type="button" data-act="cal" data-id="${x.id}">${ICON.cal}Add to calendar</button>` : ''}
+          <button class="act" type="button" data-act="copy" data-id="${x.id}">${ICON.link}Copy link</button>
+        </span>
+      </div>
+    </li>`;
+  }
+
+  function renderList() {
+    const shown = sortItems(ITEMS.filter((x) => matches(x)));
+    $('#count').innerHTML = `Showing <b>${shown.length}</b> of ${ITEMS.length} open calls`;
+    $('#mcount').textContent = `${shown.length} of ${ITEMS.length} calls`;
+    $('#showres').textContent = shown.length ? `Show ${shown.length} call${shown.length === 1 ? '' : 's'}` : 'No calls match';
+    $('#msaved').setAttribute('aria-pressed', state.saved);
+    $('#list').innerHTML = shown.length ? shown.map(card).join('')
+      : `<li class="empty">No calls match these filters. <button class="clear" type="button" data-act="clear">Clear all filters</button></li>`;
+    $('#closedNote').textContent = closedSince ? `${closedSince} call${closedSince > 1 ? 's have' : ' has'} closed since this edition and ${closedSince > 1 ? 'are' : 'is'} hidden.` : '';
+  }
+
+  function renderSoon() {
+    const soon = ITEMS.filter((x) => x.deadline && daysTo(x.deadline) <= 14).sort((a, b) => a.deadline.localeCompare(b.deadline));
+    $('#soon').innerHTML = soon.length ? soon.map((x) => {
+      const d = daysTo(x.deadline);
+      return `<article class="soon-card${d <= 7 ? ' urgent' : ''}">
+        <span class="when">${dueText(d)} · ${fmtDate(x.deadline, false)}</span>
+        <a href="#item=${x.id}" data-jump="${x.id}">${esc(x.title)}</a>
+        <span class="who">${esc(x.org)}${x.open_to ? ' · ' + esc(x.open_to) : ''}</span>
+      </article>`;
+    }).join('') : '<p class="empty-soon">Nothing with a date closes in the next two weeks.</p>';
+  }
+
+  function renderView() {
+    document.querySelectorAll('[data-panel]').forEach((el) => { el.hidden = el.dataset.panel !== view; });
+    document.querySelectorAll('.tab').forEach((t) => t.setAttribute('aria-selected', t.dataset.view === view));
+    $('#mbar').hidden = view !== 'calls';
+    document.body.classList.toggle('with-mbar', view === 'calls');
+  }
+
+  function renderDirectory() {
+    const dir = DATA.directory;
+    const covOf = (d) => d.coverage === 'weekly' ? 'weekly' : 'direct';
+    const hit = (d, skip) => (skip === 'cov' || !dstate.cov || covOf(d) === dstate.cov)
+      && (skip === 'cat' || !dstate.cat || d.cat === dstate.cat)
+      && (!dstate.q || (d.name + ' ' + d.note).toLowerCase().includes(dstate.q.toLowerCase()));
+    const chip = (group, v, label, n) => `<button class="chip" type="button" data-dgroup="${group}" data-value="${v}" aria-pressed="${dstate[group] === v}"${!n && dstate[group] !== v ? ' disabled' : ''}>${esc(label)}<span class="n">${n}</span></button>`;
+    $('#dcov').innerHTML = [['weekly', 'Checked weekly'], ['direct', 'Visit directly']]
+      .map(([v, l]) => chip('cov', v, l, dir.filter((d) => hit(d, 'cov') && covOf(d) === v).length)).join('');
+    $('#dcat').innerHTML = Object.entries(CAT).map(([v, l]) => chip('cat', v, l, dir.filter((d) => hit(d, 'cat') && d.cat === v).length)).join('');
+    const shown = dir.filter((d) => hit(d));
+    $('#dir').innerHTML = Object.entries(CAT).map(([cat, label]) => {
+      const rows = shown.filter((d) => d.cat === cat);
+      if (!rows.length) return '';
+      return `<section class="dir-group"><h3>${esc(label)}<span class="n">${rows.length}</span></h3><ul class="dir-list">${rows.map((d) => {
+        const [lab, sub] = COV[d.coverage];
+        return `<li><div><a href="${esc(d.url)}" target="_blank" rel="noopener">${esc(d.name)}</a><p>${esc(d.note)}</p></div>
+          <div><span class="cov ${d.failed ? 'failed' : d.coverage}">${lab}</span><span class="cov-sub">${esc(sub(d))}</span></div></li>`;
+      }).join('')}</ul></section>`;
+    }).join('') || '<p class="empty">No sites match.</p>';
+  }
+
+  function renderStatic() {
+    const d = DATA;
+    $('#edition').innerHTML = `Edition of ${fmtDate(d.updated)}${d.previous_update ? '' : ' <span class="pill">First edition</span>'}`;
+    $('#next').textContent = `Next check around ${fmtDate(d.next_update, false)}`;
+    $('#nsrc').textContent = d.counts.weekly;
+    $('#n-calls').textContent = ITEMS.length;
+    $('#n-res').textContent = d.directory.length;
+    const mail = 'mailto:' + d.maintainer.email;
+    $('#maint').href = mail; $('#maint').textContent = d.maintainer.name;
+    $('#suggest').href = $('#mailme').href = mail + '?subject=' + encodeURIComponent('Open Calls: a source or a correction');
+    $('#nsrc2').textContent = d.counts.weekly;
+    const soonN = ITEMS.filter((x) => x.deadline && daysTo(x.deadline) <= 14).length;
+    $('#stats').innerHTML = [
+      [ITEMS.length, 'open calls'],
+      [soonN, 'close within two weeks'],
+      [d.counts.weekly, 'sites checked weekly'],
+    ].map(([n, l]) => `<div class="stat"><b>${n}</b><span>${l}</span></div>`).join('');
+    $('#watch').innerHTML = d.watching.sort((a, b) => a.org.localeCompare(b.org)).map((w) => `<li>
+      <span class="org">${esc(w.org)}</span>
+      <a href="${esc(w.url)}" target="_blank" rel="noopener">${esc(w.title)}</a>
+      <span class="st">${esc(w.status || 'No open call at the moment.')}</span></li>`).join('');
+    $('#foot').textContent = `Open Calls · edition of ${fmtDate(d.updated)} · maintained by ${d.maintainer.name} · free to reuse`;
+    const sel = $('#region');
+    sel.innerHTML = '<option value="">Anywhere (no filter)</option>' + Object.entries(REGION).map(([v, l]) => `<option value="${v}">${l}</option>`).join('');
+  }
+
+  function syncControls() {
+    $('#q').value = state.q; $('#region').value = state.region; $('#ns').checked = state.ns;
+    $('#savedOnly').checked = state.saved; $('#sort').value = state.sort;
+  }
+  function update() { writeHash(); renderView(); renderFilters(); renderList(); renderDirectory(); }
+
+  /* ---------- Actions ---------- */
+  const toast = (msg) => { const t = $('#toast'); t.textContent = msg; t.classList.add('show'); clearTimeout(toast.t); toast.t = setTimeout(() => t.classList.remove('show'), 1800); };
+  async function copy(text) {
+    try { await navigator.clipboard.writeText(text); return true; } catch (e) {
+      const ta = document.createElement('textarea'); ta.value = text; ta.setAttribute('readonly', ''); ta.style.position = 'fixed'; ta.style.opacity = '0';
+      document.body.appendChild(ta); ta.select(); let ok = false; try { ok = document.execCommand('copy'); } catch (e2) { ok = false; } ta.remove(); return ok;
+    }
+  }
+  const pageUrl = () => location.origin + location.pathname;
+  function ics(x) {
+    const e = (s) => String(s || '').replace(/\\/g, '\\\\').replace(/[,;]/g, (c) => '\\' + c).replace(/\n/g, '\\n');
+    const d = x.deadline.replace(/-/g, '');
+    const next = new Date(Date.parse(x.deadline + 'T00:00:00Z') + DAY).toISOString().slice(0, 10).replace(/-/g, '');
+    const stamp = new Date().toISOString().replace(/[-:]/g, '').replace(/\.\d+Z$/, 'Z');
+    const body = ['BEGIN:VCALENDAR', 'VERSION:2.0', 'PRODID:-//Open Calls//EN', 'BEGIN:VEVENT', `UID:${x.id}@open-calls`, `DTSTAMP:${stamp}`,
+      `DTSTART;VALUE=DATE:${d}`, `DTEND;VALUE=DATE:${next}`, `SUMMARY:${e('Deadline: ' + x.title + ' (' + x.org + ')')}`, `URL:${x.url}`,
+      `DESCRIPTION:${e(x.summary + (x.open_to ? '\nWho can apply: ' + x.open_to : '') + '\n' + x.url)}`,
+      'BEGIN:VALARM', 'ACTION:DISPLAY', 'DESCRIPTION:Deadline in 3 days', 'TRIGGER:-P3D', 'END:VALARM', 'END:VEVENT', 'END:VCALENDAR'].join('\r\n');
+    const a = document.createElement('a');
+    a.href = URL.createObjectURL(new Blob([body], { type: 'text/calendar' }));
+    a.download = `deadline-${x.id}.ics`; document.body.appendChild(a); a.click();
+    setTimeout(() => { URL.revokeObjectURL(a.href); a.remove(); }, 500);
+  }
+  function jump(id) {
+    if (view !== 'calls') { view = 'calls'; update(); }
+    const el = document.getElementById('c-' + id);
+    if (!el) { state = blank(); syncControls(); update(); return jump.again !== id && (jump.again = id, jump(id)); }
+    el.scrollIntoView({ behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth', block: 'center' });
+    el.classList.add('flash'); setTimeout(() => el.classList.remove('flash'), 2400);
+  }
+
+  function wire() {
+    $('#filters').addEventListener('click', (ev) => {
+      const b = ev.target.closest('.chip'); if (!b || b.disabled) return;
+      const { group, value } = b.dataset;
+      if (MULTI.has(group)) state[group] = state[group].includes(value) ? state[group].filter((v) => v !== value) : [...state[group], value];
+      else state[group] = state[group] === value ? '' : value;
+      update();
+    });
+    let t; $('#q').addEventListener('input', (ev) => { clearTimeout(t); t = setTimeout(() => { state.q = ev.target.value.trim(); update(); }, 140); });
+    $('#region').addEventListener('change', (ev) => { state.region = ev.target.value; update(); });
+    $('#ns').addEventListener('change', (ev) => { state.ns = ev.target.checked; update(); });
+    $('#savedOnly').addEventListener('change', (ev) => { state.saved = ev.target.checked; update(); });
+    $('#sort').addEventListener('change', (ev) => { state.sort = ev.target.value; update(); });
+    const clear = () => { state = blank(); syncControls(); update(); };
+    $('#clear').addEventListener('click', clear);
+    document.addEventListener('click', (ev) => {
+      const t = ev.target.closest('[data-view]'); if (!t) return;
+      ev.preventDefault();
+      if (view === t.dataset.view) return;
+      view = t.dataset.view; update();
+      const top = $('.tabs').getBoundingClientRect().top;
+      if (top < 0) $('.tabs').scrollIntoView({ block: 'start' });
+    });
+    $('#dq').addEventListener('input', (ev) => { dstate.q = ev.target.value.trim(); renderDirectory(); });
+    $('[data-panel="resources"]').addEventListener('click', (ev) => {
+      const b = ev.target.closest('[data-dgroup]'); if (!b || b.disabled) return;
+      const g = b.dataset.dgroup; dstate[g] = dstate[g] === b.dataset.value ? '' : b.dataset.value; renderDirectory();
+    });
+    const sheet = $('#filters');
+    const openSheet = () => { sheet.classList.add('open'); $('#mfilters').setAttribute('aria-expanded', 'true'); document.body.style.overflow = 'hidden'; setTimeout(() => $('#sheetClose').focus(), 60); };
+    const closeSheet = () => { if (!sheet.classList.contains('open')) return; sheet.classList.remove('open'); $('#mfilters').setAttribute('aria-expanded', 'false'); document.body.style.overflow = ''; };
+    $('#mfilters').addEventListener('click', openSheet);
+    $('#sheetClose').addEventListener('click', closeSheet);
+    $('#showres').addEventListener('click', () => { closeSheet(); $('.results-head').scrollIntoView({ block: 'start' }); });
+    document.addEventListener('keydown', (ev) => { if (ev.key === 'Escape') closeSheet(); });
+    matchMedia('(min-width: 980px)').addEventListener('change', (e) => { if (e.matches) closeSheet(); });
+    $('#msaved').addEventListener('click', () => { state.saved = !state.saved; syncControls(); update(); });
+    $('#share').addEventListener('click', async () => toast(await copy(location.href) ? 'Link to this view copied' : 'Could not copy the link'));
+    $('#soon').addEventListener('click', (ev) => { const a = ev.target.closest('[data-jump]'); if (!a) return; ev.preventDefault(); jump(a.dataset.jump); });
+    document.body.addEventListener('click', async (ev) => {
+      const b = ev.target.closest('[data-act]'); if (!b) return;
+      const x = ITEMS.find((i) => i.id === b.dataset.id);
+      if (b.dataset.act === 'clear') return clear();
+      if (!x) return;
+      if (b.dataset.act === 'save') {
+        saved.has(x.id) ? saved.delete(x.id) : saved.add(x.id);
+        ls.set('oc.saved', [...saved]);
+        b.setAttribute('aria-pressed', saved.has(x.id));
+        $('#nsaved').textContent = saved.size ? `(${saved.size})` : '';
+        $('#msavedn').textContent = saved.size || '';
+        if (state.saved) update();
+      } else if (b.dataset.act === 'cal') ics(x);
+      else if (b.dataset.act === 'copy') toast(await copy(pageUrl() + '#item=' + x.id) ? 'Link to this call copied' : 'Could not copy the link');
+    });
+  }
+
+  async function init() {
+    wire();
+    try {
+      const r = await fetch('opportunities.json', { cache: 'no-cache' });
+      if (!r.ok) throw new Error(r.status);
+      DATA = await r.json();
+    } catch (e) {
+      $('#list').innerHTML = '<li class="empty">Could not load the list. If you opened this file straight from your computer, serve the folder with a local web server instead.</li>';
+      return;
+    }
+    const all = DATA.items.map((x) => ({ regions: [], who: [], topics: [], languages: [], ...x }));
+    ITEMS = all.filter((x) => !x.deadline || x.deadline >= TODAY);
+    closedSince = all.length - ITEMS.length;
+    state = readHash();
+    renderStatic(); renderSoon(); syncControls(); update();
+    if (focusItem) jump(focusItem);
+    addEventListener('hashchange', () => {
+      if (!location.hash.includes('=')) return;
+      state = readHash(); syncControls(); update();
+      if (focusItem) jump(focusItem);
+    });
+  }
+  init();
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,2487 @@
+{
+ "title": "Open Calls",
+ "updated": "2026-10-19",
+ "next_update": "2026-10-26",
+ "previous_update": "2026-10-17",
+ "maintainer": {
+  "name": "Mahmoud Al Ashek",
+  "email": "mahmoudalaashiq@proton.me"
+ },
+ "repo": "https://github.com/MDAPC/open-calls",
+ "site": "https://mdapc.github.io/open-calls/",
+ "counts": {
+  "open": 62,
+  "watching": 9,
+  "sites": 46,
+  "weekly": 32
+ },
+ "items": [
+  {
+   "id": "j-d30d63ba1c",
+   "title": "Global Reporting Grants",
+   "org": "Pulitzer Center",
+   "url": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/global-reporting-grants",
+   "kind": "grant",
+   "deadline": null,
+   "deadline_note": "No deadline; rolling basis",
+   "open_to": "Staff and freelance journalists worldwide, of all nationalities: reporters, photographers, audio and video journalists, documentary filmmakers",
+   "regions": [
+    "any"
+   ],
+   "who": [
+    "freelance",
+    "staff",
+    "photographers"
+   ],
+   "format": null,
+   "amount": "Most awards for international travel are USD 5,000 to 10,000, but may be more or less",
+   "topics": [],
+   "languages": [],
+   "summary": "Rolling catch-all reporting grants covering costs of in-depth stories on any topic or place; international travel awards are mostly USD 5,000 to 10,000.",
+   "source": {
+    "name": "Pulitzer Center",
+    "url": "https://pulitzercenter.org/"
+   },
+   "via_aggregator": false,
+   "first_seen": "2026-10-16",
+   "checked": "2026-10-17"
+  },
+  {
+   "id": "j-eb9b0eab99",
+   "title": "AI Reporting Grants",
+   "org": "Pulitzer Center",
+   "url": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/ai-reporting-grants",
+   "kind": "grant",
+   "deadline": null,
+   "deadline_note": "Rolling; replies typically within one to two weeks",
+   "open_to": "Staff and freelance journalists worldwide; applications from the Global South particularly welcome",
+   "regions": [
+    "any"
+   ],
+   "who": [
+    "freelance",
+    "staff"
+   ],
+   "format": null,
+   "amount": null,
+   "topics": [
+    "tech-ai",
+    "investigative"
+   ],
+   "languages": [],
+   "summary": "Rolling reporting grants for in-depth stories on AI and surveillance technologies and their impact on communities, open to journalists worldwide.",
+   "source": {
+    "name": "Pulitzer Center",
+    "url": "https://pulitzercenter.org/"
+   },
+   "via_aggregator": false,
+   "first_seen": "2026-10-16",
+   "checked": "2026-10-17"
+  },
+  {
+   "id": "j-211cef4dc1",
+   "title": "Global Health Inequities, Risks, and Solutions",
+   "org": "Pulitzer Center",
+   "url": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/covid-19-vaccines-and-global-health-inequities",
+   "kind": "grant",
+   "deadline": null,
+   "deadline_note": "Rolling; applicants usually told within a month",
+   "open_to": "Text, broadcast and multimedia newsrooms and freelance journalists in the U.S. and worldwide; freelancers need an outlet's commitment to publish",
+   "regions": [
+    "any"
+   ],
+   "who": [
+    "freelance",
+    "staff",
+    "newsroom"
+   ],
+   "format": null,
+   "amount": "No set budget range; projects of any scope and size considered",
+   "topics": [
+    "health"
+   ],
+   "languages": [],
+   "summary": "Rolling grants for ambitious global health reporting, including the fallout from U.S. aid cuts, open to freelancers and newsrooms worldwide.",
+   "source": {
+    "name": "Pulitzer Center",
+    "url": "https://pulitzercenter.org/"
+   },
+   "via_aggregator": false,
+   "first_seen": "2026-10-16",
+   "checked": "2026-10-17"
+  },
+  {
+   "id": "j-45bc444c68",
+   "title": "Transparency & Governance Reporting Grants",
+   "org": "Pulitzer Center",
+   "url": "https://pulitzercenter.org/transparency-governance-reporting-grants",
+   "kind": "grant",
+   "deadline": null,
+   "deadline_note": "Rolling; replies typically within one to two weeks",
+   "open_to": "Freelance and staff journalists worldwide; applications from the Global South particularly welcome",
+   "regions": [
+    "any"
+   ],
+   "who": [
+    "freelance",
+    "staff"
+   ],
+   "format": null,
+   "amount": null,
+   "topics": [
+    "investigative"
+   ],
+   "languages": [],
+   "summary": "Rolling grants for reporting on corruption, opaque money flows and abuse of power, open to freelance and staff journalists worldwide.",
+   "source": {
+    "name": "Pulitzer Center",
+    "url": "https://pulitzercenter.org/"
+   },
+   "via_aggregator": false,
+   "first_seen": "2026-10-16",
+   "checked": "2026-10-17"
+  },
+  {
+   "id": "j-5c6273cf04",
+   "title": "Rainforest Reporting Grant",
+   "org": "Pulitzer Center",
+   "url": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/rainforest-reporting-grant",
+   "kind": "grant",
+   "deadline": null,
+   "deadline_note": "Rolling; replies typically within two weeks",
+   "open_to": "Staff and freelance journalists reporting on tropical rainforests in the Amazon, Central Africa and Southeast Asia",
+   "regions": [],
+   "who": [
+    "freelance",
+    "staff"
+   ],
+   "format": null,
+   "amount": null,
+   "topics": [
+    "environment"
+   ],
+   "languages": [
+    "en",
+    "es",
+    "pt",
+    "fr",
+    "id"
+   ],
+   "summary": "Rolling, project-based funding for staff and freelance journalists reporting on tropical rainforests in the Amazon, Central Africa and Southeast Asia; applications accepted in five languages.",
+   "source": {
+    "name": "Pulitzer Center",
+    "url": "https://pulitzercenter.org/"
+   },
+   "via_aggregator": false,
+   "first_seen": "2026-10-16",
+   "checked": "2026-10-17"
+  },
+  {
+   "id": "j-564bcbb708",
+   "title": "Conflict Reporting (Conflict & Peace)",
+   "org": "Pulitzer Center",
+   "url": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/conflict-peace",
+   "kind": "grant",
+   "deadline": null,
+   "deadline_note": "Rolling; replies typically within one to two weeks",
+   "open_to": "Journalists and newsrooms covering conflict; freelancers reporting from war zones need a written assignment from an outlet taking full responsibility for their safety",
+   "regions": [],
+   "who": [
+    "freelance",
+    "newsroom"
+   ],
+   "format": null,
+   "amount": null,
+   "topics": [
+    "conflict-rights",
+    "safety"
+   ],
+   "languages": [],
+   "summary": "Rolling grants for in-depth conflict reporting, including safety costs; freelancers in war zones need an outlet's written commitment to their safety.",
+   "source": {
+    "name": "Pulitzer Center",
+    "url": "https://pulitzercenter.org/"
+   },
+   "via_aggregator": false,
+   "first_seen": "2026-10-16",
+   "checked": "2026-10-17"
+  },
+  {
+   "id": "j-67976476ee",
+   "title": "Ocean and Fisheries Reporting Grant",
+   "org": "Pulitzer Center",
+   "url": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/ocean-and-fisheries-reporting",
+   "kind": "grant",
+   "deadline": null,
+   "deadline_note": "Rolling; replies typically within one to two weeks",
+   "open_to": "Freelance and staff journalists from around the world; Global South applicants particularly welcome",
+   "regions": [
+    "any"
+   ],
+   "who": [
+    "freelance",
+    "staff"
+   ],
+   "format": null,
+   "amount": null,
+   "topics": [
+    "environment",
+    "investigative"
+   ],
+   "languages": [],
+   "summary": "Rolling grants for journalists worldwide to report on ocean health, illegal fishing and fisheries issues, especially from the Global South.",
+   "source": {
+    "name": "Pulitzer Center",
+    "url": "https://pulitzercenter.org/"
+   },
+   "via_aggregator": false,
+   "first_seen": "2026-10-16",
+   "checked": "2026-10-17"
+  },
+  {
+   "id": "j-b4f1d6d2ea",
+   "title": "Climate and Labor Reporting Grants (Our Work/Environment)",
+   "org": "Pulitzer Center",
+   "url": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/your-work-environment-grants",
+   "kind": "grant",
+   "deadline": null,
+   "deadline_note": "Rolling, first-come review; priority to projects that can publish within one to four months",
+   "open_to": "U.S. residents and journalists around the world; freelance and staff journalists or groups of newsrooms",
+   "regions": [
+    "any"
+   ],
+   "who": [
+    "freelance",
+    "staff",
+    "newsroom"
+   ],
+   "format": null,
+   "amount": "Depends on scope, formats and distribution plan; no figure stated",
+   "topics": [
+    "environment",
+    "economy"
+   ],
+   "languages": [],
+   "summary": "Rolling grants for reporting on how climate change affects workers and industries; proposals that can publish within one to four months are prioritised.",
+   "source": {
+    "name": "Pulitzer Center",
+    "url": "https://pulitzercenter.org/"
+   },
+   "via_aggregator": false,
+   "first_seen": "2026-10-16",
+   "checked": "2026-10-17"
+  },
+  {
+   "id": "j-f366a0a844",
+   "title": "Africa Reporting Grants (Underreported Stories in Africa)",
+   "org": "Pulitzer Center",
+   "url": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/underreported-stories-sub-saharan-africa",
+   "kind": "grant",
+   "deadline": null,
+   "deadline_note": "Rolling; replies typically within one to two weeks",
+   "open_to": "Newsrooms, staff and freelance journalists around the world, for stories on communities in Africa; local journalists encouraged",
+   "regions": [
+    "any"
+   ],
+   "who": [
+    "freelance",
+    "staff",
+    "newsroom",
+    "photographers"
+   ],
+   "format": null,
+   "amount": "No set budget range; projects of any scope and size considered",
+   "topics": [
+    "environment",
+    "health",
+    "investigative"
+   ],
+   "languages": [],
+   "summary": "Rolling grants for journalists and newsrooms worldwide to report underreported stories affecting communities in Africa, with local journalists encouraged to apply.",
+   "source": {
+    "name": "Pulitzer Center",
+    "url": "https://pulitzercenter.org/"
+   },
+   "via_aggregator": false,
+   "first_seen": "2026-10-16",
+   "checked": "2026-10-17"
+  },
+  {
+   "id": "j-2d286f159f",
+   "title": "U.S. Local News Reporting Grants",
+   "org": "Pulitzer Center",
+   "url": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/us-local-news-reporting-grants",
+   "kind": "grant",
+   "deadline": null,
+   "deadline_note": "Rolling; reviewed regularly by the editorial team",
+   "open_to": "Freelance and staff journalists working with local U.S. news outlets; freelancers must publish in U.S. local outlets",
+   "regions": [
+    "north-america"
+   ],
+   "who": [
+    "freelance",
+    "staff",
+    "newsroom"
+   ],
+   "format": null,
+   "amount": "No set budget range; projects of any scope and size considered",
+   "topics": [
+    "investigative",
+    "local"
+   ],
+   "languages": [],
+   "summary": "Rolling grants for in-depth investigative and enterprise projects with local U.S. news outlets; freelancers qualify if they publish in U.S. local outlets.",
+   "source": {
+    "name": "Pulitzer Center",
+    "url": "https://pulitzercenter.org/"
+   },
+   "via_aggregator": false,
+   "first_seen": "2026-10-16",
+   "checked": "2026-10-17"
+  },
+  {
+   "id": "j-29bcc91d98",
+   "title": "Machine Learning Reporting Grants",
+   "org": "Pulitzer Center",
+   "url": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/machine-learning-reporting-grants",
+   "kind": "grant",
+   "deadline": null,
+   "deadline_note": "Rolling, first-come review",
+   "open_to": "U.S. residents and journalists around the world; freelance data journalists, staff journalists or groups of newsrooms",
+   "regions": [
+    "any"
+   ],
+   "who": [
+    "freelance",
+    "staff",
+    "newsroom"
+   ],
+   "format": null,
+   "amount": "Most past awards USD 10,000 to 25,000, but may be more or less",
+   "topics": [
+    "data-osint",
+    "tech-ai",
+    "investigative"
+   ],
+   "languages": [],
+   "summary": "Rolling grants for investigations using advanced data mining such as machine learning; past awards mostly USD 10,000 to 25,000, with open methods encouraged.",
+   "source": {
+    "name": "Pulitzer Center",
+    "url": "https://pulitzercenter.org/"
+   },
+   "via_aggregator": false,
+   "first_seen": "2026-10-16",
+   "checked": "2026-10-17"
+  },
+  {
+   "id": "j-fcc41d9370",
+   "title": "Equality Fund Global Journalism Fellowship 2026",
+   "org": "Equality Fund",
+   "url": "https://equalityfund.ca/en/posts/application-journalism-fellowship",
+   "kind": "fellowship",
+   "deadline": "2026-11-08",
+   "deadline_note": "Closes 8 Nov 2026 at midnight Eastern time; winners told by 15 Jan 2027; programme runs Jan to Sep 2027",
+   "open_to": "Full-time or freelance journalists located in and reporting on communities in ODA-recipient countries, with at least three years of experience",
+   "regions": [],
+   "who": [
+    "freelance",
+    "staff"
+   ],
+   "format": "hybrid",
+   "amount": "Up to CAD 500 reporting expenses (GFMD also lists a CAD 4,000 stipend, not shown on the official page)",
+   "topics": [
+    "conflict-rights",
+    "environment",
+    "economy"
+   ],
+   "languages": [
+    "en"
+   ],
+   "summary": "Mentoring, a convening and reporting support for up to five journalists in aid-recipient countries covering local solutions, with a gender focus.",
+   "source": {
+    "name": "GFMD: funding opportunities",
+    "url": "https://gfmd.info/fundings/"
+   },
+   "via_aggregator": true,
+   "first_seen": "2026-10-16",
+   "checked": "2026-10-17"
+  },
+  {
+   "id": "j-ca6c213531",
+   "title": "German-Northern European Journalists Fellowship 2027",
+   "org": "International Journalists' Programmes (IJP)",
+   "url": "https://ijp.org/en/programmes/northerneurope/",
+   "kind": "fellowship",
+   "deadline": "2026-11-15",
+   "deadline_note": "Closes 15 Nov 2026; fellowship runs April to June 2027; apply by email as one PDF",
+   "open_to": "Journalists aged 18 to 45 working as freelancers, trainees or editors in Germany, Denmark, Finland, Iceland, Norway, Sweden, Estonia, Latvia or Lithuania",
+   "regions": [
+    "europe"
+   ],
+   "who": [
+    "freelance",
+    "staff"
+   ],
+   "format": "in person: Germany and Nordic/Baltic countries",
+   "amount": "EUR 3,800 one-off payment (partial support towards travel and living costs)",
+   "topics": [],
+   "languages": [
+    "en"
+   ],
+   "summary": "Exchange fellowship placing German and Nordic/Baltic journalists in each other's newsrooms for several weeks in 2027, with a conference and a closing event in Berlin.",
+   "source": {
+    "name": "GFMD: funding opportunities",
+    "url": "https://gfmd.info/fundings/"
+   },
+   "via_aggregator": true,
+   "first_seen": "2026-10-16",
+   "checked": "2026-10-17"
+  },
+  {
+   "id": "j-13e80d9445",
+   "title": "WCSJ2027 Travel Fellowship",
+   "org": "World Conference of Science Journalists 2027 (WCSJ2027)",
+   "url": "https://registration.wcsj2027.org/wcsj27/fellowships",
+   "kind": "fellowship",
+   "deadline": "2026-10-23",
+   "deadline_note": "Closes 23:59 BST on 23 Oct 2026; conference 6 to 9 Sep 2027 (must attend all of it)",
+   "open_to": "Journalists and media professionals covering science and related fields, journalism or related students, and journalism researchers or teachers with a media track record, who need funding and can obtain a UK visa",
+   "regions": [
+    "any"
+   ],
+   "who": [
+    "freelance",
+    "staff",
+    "students"
+   ],
+   "format": "in person: London, United Kingdom",
+   "amount": "Travel, visa costs, local transport, up to six nights of accommodation and full registration; no per diem",
+   "topics": [
+    "science",
+    "health",
+    "environment"
+   ],
+   "languages": [
+    "en"
+   ],
+   "summary": "Covers travel, visa, lodging and registration so journalists and students who cannot afford it can attend the science journalism world conference in London, September 2027.",
+   "source": {
+    "name": "GFMD: funding opportunities",
+    "url": "https://gfmd.info/fundings/"
+   },
+   "via_aggregator": true,
+   "first_seen": "2026-10-16",
+   "checked": "2026-10-17"
+  },
+  {
+   "id": "j-3a20bfe941",
+   "title": "Fault Lines Reporting Fund",
+   "org": "International Women's Media Foundation (IWMF)",
+   "url": "https://iwmf.submittable.com/submit/f8b1761b-8064-40c6-b8c0-e349b0bc3881/fault-lines-reporting-fund",
+   "kind": "grant",
+   "deadline": null,
+   "deadline_note": "Rolling; no closing date for the current cycle; replies within 6 to 8 weeks",
+   "open_to": "Staff and freelance journalists reporting in the United States, with 3+ years of professional experience",
+   "regions": [
+    "north-america"
+   ],
+   "who": [
+    "freelance",
+    "staff"
+   ],
+   "format": null,
+   "amount": "USD 2,500 to 10,000; larger awards case by case",
+   "topics": [
+    "investigative",
+    "conflict-rights"
+   ],
+   "languages": [
+    "en"
+   ],
+   "summary": "Rolling grants for investigative US reporting on racism, antisemitism, Islamophobia, misogyny and the narratives that drive hate; covers travel, security and other reporting costs.",
+   "source": {
+    "name": "GFMD: funding opportunities",
+    "url": "https://gfmd.info/fundings/"
+   },
+   "via_aggregator": true,
+   "first_seen": "2026-10-16",
+   "checked": "2026-10-17"
+  },
+  {
+   "id": "j-4e48969f1d",
+   "title": "MDIF Western Balkans Fund",
+   "org": "Media Development Investment Fund (MDIF)",
+   "url": "https://www.mdif.org/our-work/initiatives-and-programs/mdif-western-balkans-fund/",
+   "kind": "support",
+   "deadline": null,
+   "deadline_note": "No closing date on the organisation's page (GFMD lists it as ongoing); apply by email",
+   "open_to": "Independent media companies located in or serving audiences in Albania, Bosnia and Herzegovina, Kosovo, Montenegro, North Macedonia and Serbia",
+   "regions": [
+    "europe"
+   ],
+   "who": [
+    "newsroom",
+    "media-managers"
+   ],
+   "format": null,
+   "amount": "Loans, equity or quasi-equity; size varies by company",
+   "topics": [
+    "media-business"
+   ],
+   "languages": [
+    "en"
+   ],
+   "summary": "Standing investment fund giving loans and equity, with business advisory support, to independent media start-ups and growing outlets in the Western Balkans.",
+   "source": {
+    "name": "GFMD: funding opportunities",
+    "url": "https://gfmd.info/fundings/"
+   },
+   "via_aggregator": true,
+   "first_seen": "2026-10-16",
+   "checked": "2026-10-17"
+  },
+  {
+   "id": "j-e343d5e21d",
+   "title": "The Invisible Life Grant",
+   "org": "Journalismfund Europe",
+   "url": "https://grants.journalismfund.eu/en/the-invisible-life-grant",
+   "kind": "grant",
+   "deadline": "2026-10-29",
+   "deadline_note": "Second of two 2026 rounds; closes 29 Oct 2026 at 1 pm CET (Brussels time)",
+   "open_to": "Cross-border teams of at least two professional journalists and/or news outlets legally residing in at least two different countries",
+   "regions": [
+    "europe"
+   ],
+   "who": [
+    "freelance",
+    "newsroom"
+   ],
+   "format": null,
+   "amount": "EUR 225,000 available in total for this round",
+   "topics": [
+    "investigative",
+    "environment"
+   ],
+   "languages": [
+    "en",
+    "nl",
+    "fr"
+   ],
+   "summary": "Funds cross-border investigations into farm animal welfare and related European interests, with optional mentoring; results must run in outlets in at least two countries.",
+   "source": {
+    "name": "GFMD: funding opportunities",
+    "url": "https://gfmd.info/fundings/"
+   },
+   "via_aggregator": true,
+   "first_seen": "2026-10-16",
+   "checked": "2026-10-17"
+  },
+  {
+   "id": "j-d5706700b7",
+   "title": "Newsday/David Laventhol Visiting Professor",
+   "org": "Columbia University Journalism School",
+   "url": "https://apply.interfolio.com/193999",
+   "kind": "job",
+   "deadline": null,
+   "deadline_note": "open until filled; first-round interviews by December 2026 (posted 19 September 2026)",
+   "open_to": "Must currently hold an appointment at another academic institution; bachelor's degree required",
+   "regions": [
+    "north-america"
+   ],
+   "who": [
+    "staff"
+   ],
+   "format": "in person: New York City, United States",
+   "amount": "$100,000 - $120,000 a year, by academic rank",
+   "topics": [
+    "investigative",
+    "local"
+   ],
+   "languages": [],
+   "summary": "Full-time visiting professorship teaching reporting courses and advising master's projects for the 2027-28 academic year, renewable once; expertise in diversity-in-media reporting expected.",
+   "source": {
+    "name": "GIJN jobs board",
+    "url": "http://gijn.org/"
+   },
+   "via_aggregator": true,
+   "first_seen": "2026-10-16",
+   "checked": "2026-10-19"
+  },
+  {
+   "id": "j-1564e6c8fb",
+   "title": "Africa Broadcast Producer",
+   "org": "Bloomberg",
+   "url": "https://bloomberg.avature.net/careers/JobDetail/Africa-Broadcast-Producer/22096",
+   "kind": "job",
+   "deadline": null,
+   "deadline_note": "open until filled",
+   "open_to": null,
+   "regions": [
+    "africa"
+   ],
+   "who": [
+    "staff"
+   ],
+   "format": "in person: Johannesburg, South Africa",
+   "amount": null,
+   "topics": [
+    "economy"
+   ],
+   "languages": [],
+   "summary": "Experienced television producer in Johannesburg shaping Bloomberg Television's Africa coverage: breaking news, live shows, interviews and features; five or more years of TV experience asked.",
+   "source": {
+    "name": "GIJN jobs board",
+    "url": "http://gijn.org/"
+   },
+   "via_aggregator": true,
+   "first_seen": "2026-10-16",
+   "checked": "2026-10-19"
+  },
+  {
+   "id": "j-0539aecd1c",
+   "title": "Program Coordinator, AI Initiative",
+   "org": "The Pulitzer Center",
+   "url": "https://ats.rippling.com/en-GB/the-pulitzer-center-on-crisis-reporting/jobs/5379f55c-5765-47c1-89ca-e4b341861774",
+   "kind": "job",
+   "deadline": null,
+   "deadline_note": "open until filled",
+   "open_to": "Fully remote, open to candidates located anywhere in the world",
+   "regions": [
+    "any"
+   ],
+   "who": [
+    "staff"
+   ],
+   "format": "remote",
+   "amount": "$54,500 - $62,000 annually (range for US-based employees)",
+   "topics": [
+    "tech-ai"
+   ],
+   "languages": [
+    "en",
+    "es",
+    "pt",
+    "id",
+    "fr"
+   ],
+   "summary": "Administrative role running the Pulitzer Center's AI journalism network: newsletter, trainings, grant paperwork and payments; English plus one of its other programme languages.",
+   "source": {
+    "name": "GIJN jobs board",
+    "url": "http://gijn.org/"
+   },
+   "via_aggregator": true,
+   "first_seen": "2026-10-16",
+   "checked": "2026-10-19"
+  },
+  {
+   "id": "j-46a4683551",
+   "title": "Asia Editor",
+   "org": "Semafor",
+   "url": "https://job-boards.greenhouse.io/semafor/jobs/4717606005",
+   "kind": "job",
+   "deadline": null,
+   "deadline_note": "open until filled",
+   "open_to": "Remote; ideal candidate based in Singapore, open to applicants elsewhere in the region",
+   "regions": [
+    "asia"
+   ],
+   "who": [
+    "staff"
+   ],
+   "format": "remote",
+   "amount": null,
+   "topics": [
+    "economy",
+    "media-business"
+   ],
+   "languages": [],
+   "summary": "Senior editor leading Semafor's Asia coverage and building its reporting team, with a business and finance focus; ten-plus years of journalism and newsroom leadership asked.",
+   "source": {
+    "name": "GIJN jobs board",
+    "url": "http://gijn.org/"
+   },
+   "via_aggregator": true,
+   "first_seen": "2026-10-16",
+   "checked": "2026-10-19"
+  },
+  {
+   "id": "j-3c61aa58b1",
+   "title": "Bilingual Editor",
+   "org": "Palestine Reporting Lab",
+   "url": "https://palestinereportinglab.org/jobs/bilingual-editor",
+   "kind": "job",
+   "deadline": null,
+   "deadline_note": "rolling basis, open until filled",
+   "open_to": "Can be based anywhere, but must be willing to hold meetings during US and Palestine working hours",
+   "regions": [
+    "any"
+   ],
+   "who": [
+    "staff"
+   ],
+   "format": "remote",
+   "amount": "$4,000 - $6,000 monthly (range applies to candidates in Palestine; adjusted for other locations)",
+   "topics": [
+    "investigative",
+    "conflict-rights"
+   ],
+   "languages": [
+    "ar",
+    "en"
+   ],
+   "summary": "One-year contract as the lead Arabic-language editor for investigative and narrative journalism on Palestine; five years of journalism experience asked, extension possible.",
+   "source": {
+    "name": "GIJN jobs board",
+    "url": "http://gijn.org/"
+   },
+   "via_aggregator": true,
+   "first_seen": "2026-10-16",
+   "checked": "2026-10-19"
+  },
+  {
+   "id": "j-c8e3608c00",
+   "title": "Writer",
+   "org": "Our World in Data",
+   "url": "https://ourworldindata.org/hiring-writer-2026",
+   "kind": "job",
+   "deadline": null,
+   "deadline_note": "open until an offer is made; applications reviewed in monthly batches",
+   "open_to": "International applicants welcome; working hours should partly overlap with UK hours; visa sponsorship may be considered",
+   "regions": [
+    "any"
+   ],
+   "who": [
+    "staff"
+   ],
+   "format": "remote",
+   "amount": "£80,000 to £120,000 per year, based on experience and location",
+   "topics": [
+    "science",
+    "health",
+    "economy",
+    "data-osint"
+   ],
+   "languages": [
+    "en"
+   ],
+   "summary": "Senior writer producing data-driven articles on global problems for a general audience; hiring starts with a paid two-article writing residency before any offer.",
+   "source": {
+    "name": "GIJN jobs board",
+    "url": "http://gijn.org/"
+   },
+   "via_aggregator": true,
+   "first_seen": "2026-10-16",
+   "checked": "2026-10-19"
+  },
+  {
+   "id": "j-f0b190f9a0",
+   "title": "Reporting Fellowships for Journalists to Cover BBNJ COP1 in New York City, USA",
+   "org": "Internews' Earth Journalism Network",
+   "url": "https://earthjournalism.net/opportunities/reporting-fellowships-for-journalists-to-cover-bbnj-cop1-in-new-york-city-usa",
+   "kind": "fellowship",
+   "deadline": "2026-10-27",
+   "deadline_note": "Decisions in November 2026; fellowship depends on final funding approval from the Bloomberg Ocean Fund",
+   "open_to": "Professional journalists from or representing an established media house and reporting from a coastal country; freelancers need a letter of support from an outlet",
+   "regions": [],
+   "who": [
+    "freelance",
+    "staff"
+   ],
+   "format": "in person: New York City, USA",
+   "amount": "Covers economy airfare, accommodation, meals, insurance, ground transport and a per diem; visa costs reimbursed",
+   "topics": [
+    "environment"
+   ],
+   "languages": [
+    "en"
+   ],
+   "summary": "EJN will fund ten journalists to report from the first High Seas Treaty conference in New York in January 2027, covering travel and stay.",
+   "source": {
+    "name": "Earth Journalism Network",
+    "url": "https://earthjournalism.net/opportunities"
+   },
+   "via_aggregator": false,
+   "first_seen": "2026-10-16",
+   "checked": "2026-10-17"
+  },
+  {
+   "id": "j-197ed3202f",
+   "title": "Virtual Media Workshops on the 30x30 Target and Marine Protected Areas 2027",
+   "org": "Internews' Earth Journalism Network",
+   "url": "https://earthjournalism.net/opportunities/virtual-media-workshops-on-the-30x30-target-and-marine-protected-areas-2027",
+   "kind": "training",
+   "deadline": "2026-11-02",
+   "deadline_note": "Workshops held weeks of 15 Feb (Ghana), 22 Feb (Mexico) and 1 Mar 2027 (Philippines); applicants notified in December 2026",
+   "open_to": "Journalists, content creators and other media practitioners from Ghana, Mexico or the Philippines",
+   "regions": [
+    "africa",
+    "latam",
+    "asia"
+   ],
+   "who": [
+    "freelance",
+    "staff",
+    "women",
+    "early-career"
+   ],
+   "format": "remote",
+   "amount": "Follow-on story grants of USD 1,500 each (up to 35) with special consideration for participants",
+   "topics": [
+    "environment"
+   ],
+   "languages": [
+    "en",
+    "es"
+   ],
+   "summary": "Three-day online workshops for journalists in Ghana, Mexico and the Philippines on marine protected areas, with a path to later story grants.",
+   "source": {
+    "name": "Earth Journalism Network",
+    "url": "https://earthjournalism.net/opportunities"
+   },
+   "via_aggregator": false,
+   "first_seen": "2026-10-16",
+   "checked": "2026-10-17"
+  },
+  {
+   "id": "j-2c2de73185",
+   "title": "Text and Video Reports on Renewable Energy in India",
+   "org": "Internews' Earth Journalism Network",
+   "url": "https://earthjournalism.net/opportunities/text-and-video-reports-on-renewable-energy-in-india-0",
+   "kind": "grant",
+   "deadline": "2026-11-15",
+   "deadline_note": "Selection announced December 2026; all content must be published by 30 April 2027",
+   "open_to": "Communicators and social media content creators based anywhere in India, with preference for Andhra Pradesh, Madhya Pradesh, Maharashtra, Odisha and Uttar Pradesh",
+   "regions": [
+    "asia"
+   ],
+   "who": [
+    "freelance",
+    "staff",
+    "women"
+   ],
+   "format": null,
+   "amount": "Budgets expected within Rs 1 lakh for text/multimedia and Rs 3 lakh for video or joint stories",
+   "topics": [
+    "environment"
+   ],
+   "languages": [
+    "en",
+    "hi",
+    "mr",
+    "or",
+    "te"
+   ],
+   "summary": "Grants for communicators and social media creators in India to produce text or video reports on the renewable energy transition, with editorial mentoring.",
+   "source": {
+    "name": "Earth Journalism Network",
+    "url": "https://earthjournalism.net/opportunities"
+   },
+   "via_aggregator": false,
+   "first_seen": "2026-10-16",
+   "checked": "2026-10-17"
+  },
+  {
+   "id": "j-0ed65fcfc5",
+   "title": "2027 Safety Ambassador Fellowship",
+   "org": "International Women's Media Foundation (IWMF)",
+   "url": "https://iwmf.submittable.com/submit/7c298256-be7f-40df-834c-6bc190d65d9a/2027-safety-ambassador-fellowship",
+   "kind": "fellowship",
+   "deadline": "2026-10-19",
+   "deadline_note": "Submittable end time is 2026-10-20 04:00 UTC (about 11:59 PM US Eastern on Oct 19); IJNet lists Oct 20",
+   "open_to": "Journalists based in the U.S. who work in journalism, especially local newsrooms; open to all genders",
+   "regions": [
+    "north-america"
+   ],
+   "who": [],
+   "format": null,
+   "amount": "Small stipend (amount not stated)",
+   "topics": [
+    "safety",
+    "local"
+   ],
+   "languages": [],
+   "summary": "Six-month programme training U.S. journalists as newsroom Safety Ambassadors, with expert mentoring and a small stipend, then four trainings delivered afterwards.",
+   "source": {
+    "name": "IJNet",
+    "url": "https://ijnet.org/en"
+   },
+   "via_aggregator": true,
+   "first_seen": "2026-10-16",
+   "checked": "2026-10-17"
+  },
+  {
+   "id": "j-080728ed2b",
+   "title": "ODA Germany Grants, Round 2: reporting on maternal and child health",
+   "org": "European Journalism Centre (EJC)",
+   "url": "https://ejc.net/funding/oda-germany-grants-ii",
+   "kind": "grant",
+   "deadline": "2026-10-23",
+   "deadline_note": "23:59 CEST",
+   "open_to": "Germany-based freelance journalists, independent or regional German media, news creators, or teams including a Germany-based journalist or German media partner",
+   "regions": [
+    "europe"
+   ],
+   "who": [
+    "freelance",
+    "newsroom"
+   ],
+   "format": null,
+   "amount": "EUR 10,000-15,000 per grant (EUR 120,000 in total)",
+   "topics": [
+    "health"
+   ],
+   "languages": [
+    "en"
+   ],
+   "summary": "Grants for reporting on maternal and child health and German development aid, to be published in German media by 30 April 2027.",
+   "source": {
+    "name": "IJNet",
+    "url": "https://ijnet.org/en"
+   },
+   "via_aggregator": true,
+   "first_seen": "2026-10-16",
+   "checked": "2026-10-17"
+  },
+  {
+   "id": "j-a463163269",
+   "title": "Technology Journalism Fellowship 2027",
+   "org": "Publix, House for Journalism and the Public Sphere",
+   "url": "https://www.publix.de/en/projects/technology-journalism-fellowship",
+   "kind": "fellowship",
+   "deadline": "2026-11-15",
+   "deadline_note": null,
+   "open_to": "Tech, digital, politics, business and science journalists, freelance or employed, living in Germany or Switzerland who speak German and English",
+   "regions": [
+    "europe"
+   ],
+   "who": [
+    "freelance",
+    "staff"
+   ],
+   "format": "in person: Berlin, Germany",
+   "amount": "One-time salary compensation of EUR 4,300, plus travel and lodging covered",
+   "topics": [
+    "tech-ai"
+   ],
+   "languages": [],
+   "summary": "Four-week fellowship in two phases (April and September 2027) for six journalists on digital sovereignty, with expert meetings in Berlin and Brussels.",
+   "source": {
+    "name": "IJNet",
+    "url": "https://ijnet.org/en"
+   },
+   "via_aggregator": true,
+   "first_seen": "2026-10-16",
+   "checked": "2026-10-17"
+  },
+  {
+   "id": "j-8d27d8cde0",
+   "title": "Research travel scholarship for journalists from North Rhine-Westphalia (Stipendium für Journalisten aus NRW)",
+   "org": "Heinz-Kühn-Stiftung",
+   "url": "https://heinz-kuehn-stiftung.de/stipendien/bewerbung-aus-nordrhein-westfalen",
+   "kind": "fellowship",
+   "deadline": "2026-11-30",
+   "deadline_note": "Page gives 30 November as the yearly cut-off; IJNet lists 2026",
+   "open_to": "Young journalists from North Rhine-Westphalia, Germany, aged 35 or under, with journalism training begun or several years of journalism work",
+   "regions": [
+    "europe"
+   ],
+   "who": [
+    "early-career"
+   ],
+   "format": "in person: Africa, Asia or Latin America",
+   "amount": "Flat rates: EUR 2,000 or 4,000 base costs, EUR 1,500 flights, EUR 350 or 450 expenses (6 weeks or 3 months)",
+   "topics": [],
+   "languages": [],
+   "summary": "Six-week or three-month research trip to Africa, Asia or Latin America on a self-chosen topic, with flat-rate funding and a research report afterwards.",
+   "source": {
+    "name": "IJNet",
+    "url": "https://ijnet.org/en"
+   },
+   "via_aggregator": true,
+   "first_seen": "2026-10-16",
+   "checked": "2026-10-17"
+  },
+  {
+   "id": "j-1b832f3bfe",
+   "title": "Future Journalist Program",
+   "org": "RTDNA Canada",
+   "url": "https://rtdnacanada.com/future-journalist-program/",
+   "kind": "training",
+   "deadline": "2026-12-15",
+   "deadline_note": "Program runs March 1 to November 1, 2027",
+   "open_to": "Post-secondary journalism and media students",
+   "regions": [],
+   "who": [
+    "students"
+   ],
+   "format": "hybrid",
+   "amount": null,
+   "topics": [],
+   "languages": [],
+   "summary": "Canadian programme giving selected journalism students CTV newsroom tours, interviews with veteran journalists, career workshops and an awards gala ticket.",
+   "source": {
+    "name": "IJNet",
+    "url": "https://ijnet.org/en"
+   },
+   "via_aggregator": true,
+   "first_seen": "2026-10-16",
+   "checked": "2026-10-17"
+  },
+  {
+   "id": "j-686f20c73e",
+   "title": "John S. Knight Journalism Fellowships at Stanford 2027-28",
+   "org": "John S. Knight Journalism Fellowships, Stanford University",
+   "url": "https://jsk.stanford.edu/become-a-fellow",
+   "kind": "fellowship",
+   "deadline": "2026-12-02",
+   "deadline_note": "1:00 p.m. Pacific time; no extensions or late applications",
+   "open_to": "Journalists and people working in service of journalism with at least five years' professional experience, employed or freelance; citizens of countries under a US J-visa suspension cannot be offered a fellowship",
+   "regions": [],
+   "who": [
+    "freelance",
+    "staff"
+   ],
+   "format": "in person: Stanford, United States",
+   "amount": "USD 135,000 stipend for nine months, plus Stanford tuition and health insurance",
+   "topics": [],
+   "languages": [],
+   "summary": "Nine-month residential fellowship at Stanford (September to May) for experienced journalists to pursue a question about journalism, with coaching and a global alumni network.",
+   "source": {
+    "name": "IJNet",
+    "url": "https://ijnet.org/en"
+   },
+   "via_aggregator": true,
+   "first_seen": "2026-10-16",
+   "checked": "2026-10-17"
+  },
+  {
+   "id": "j-7a1f7f8fab",
+   "title": "GIJC27 Fellowship (Global Investigative Journalism Conference 2027)",
+   "org": "Global Investigative Journalism Network (GIJN), co-host VVOJ",
+   "url": "https://gijn.org/stories/gijc2027-fellowship-application/",
+   "kind": "fellowship",
+   "deadline": "2027-01-31",
+   "deadline_note": "Conference runs 19-23 October 2027",
+   "open_to": "Professional journalists, including freelancers, prioritising the Global South and historically underrepresented groups; others who cannot cover the cost may apply too",
+   "regions": [],
+   "who": [
+    "freelance"
+   ],
+   "format": "in person: Rotterdam, Netherlands",
+   "amount": "Full fellowship covers flights, four hotel nights, registration and some meals; no per diem, visa or home-airport transport",
+   "topics": [
+    "investigative",
+    "data-osint"
+   ],
+   "languages": [
+    "en"
+   ],
+   "summary": "Funded places at the Global Investigative Journalism Conference in Rotterdam, October 2027, covering flights, hotel and registration, prioritising Global South and underrepresented journalists.",
+   "source": {
+    "name": "Opportunity Desk",
+    "url": "https://opportunitydesk.org/"
+   },
+   "via_aggregator": true,
+   "first_seen": "2026-10-16",
+   "checked": "2026-10-17"
+  },
+  {
+   "id": "j-0bbf0a992c",
+   "title": "True Story Award 2027",
+   "org": "True Story Foundation (True Story Festival)",
+   "url": "https://truestoryfestival.org/en/award",
+   "kind": "award",
+   "deadline": "2026-10-31",
+   "deadline_note": "12:00 UTC",
+   "open_to": "Journalists from around the world; text reports published between 1 October 2025 and 30 September 2026",
+   "regions": [
+    "any"
+   ],
+   "who": [],
+   "format": null,
+   "amount": "USD 20,000 for each of the three category winners",
+   "topics": [],
+   "languages": [
+    "ar",
+    "zh",
+    "en",
+    "fr",
+    "de",
+    "fa",
+    "pt",
+    "ru",
+    "es"
+   ],
+   "summary": "International award for published long-form reports (15,000 to 85,000 characters) in Research, Storytelling and Impact categories, with USD 20,000 per winner.",
+   "source": {
+    "name": "Opportunity Desk",
+    "url": "https://opportunitydesk.org/"
+   },
+   "via_aggregator": true,
+   "first_seen": "2026-10-16",
+   "checked": "2026-10-17"
+  },
+  {
+   "id": "j-44cb70659c",
+   "title": "2026 Lauren Brown Fellowship",
+   "org": "International Women's Media Foundation (IWMF)",
+   "url": "https://www.iwmf.org/programs/the-lauren-brown-fellowship/",
+   "kind": "grant",
+   "deadline": "2026-10-30",
+   "deadline_note": "11:59 PM EST; recipients told by mid-December 2026",
+   "open_to": "Women and nonbinary journalists from underrepresented backgrounds, based in the U.S.",
+   "regions": [
+    "north-america"
+   ],
+   "who": [
+    "women"
+   ],
+   "format": null,
+   "amount": "Grants of up to USD 2,000",
+   "topics": [],
+   "languages": [],
+   "summary": "Grants of up to USD 2,000 for U.S.-based women and nonbinary journalists from underrepresented backgrounds to fund reporting projects or professional development.",
+   "source": {
+    "name": "Global South Opportunities",
+    "url": "https://www.globalsouthopportunities.com/"
+   },
+   "via_aggregator": true,
+   "first_seen": "2026-10-16",
+   "checked": "2026-10-17"
+  },
+  {
+   "id": "j-86d8ffbbd9",
+   "title": "Freelancer Support Scheme",
+   "org": "IJ4EU (run by the European Journalism Centre)",
+   "url": "https://investigativejournalismforeu.net/grants/freelancer-support-scheme/",
+   "kind": "grant",
+   "deadline": null,
+   "deadline_note": "Call paused; next call opens 1 Dec 2026, deadline nine weeks after opening",
+   "open_to": "Cross-border teams of at least two freelance journalists, based in at least two Creative Europe countries",
+   "regions": [
+    "europe"
+   ],
+   "who": [
+    "freelance"
+   ],
+   "format": null,
+   "amount": "Grants up to EUR 20,000 plus mentoring, training and networking",
+   "topics": [
+    "investigative",
+    "conflict-rights",
+    "environment",
+    "health"
+   ],
+   "languages": [
+    "en"
+   ],
+   "summary": "Grants for cross-border investigations by teams of freelancers, with mentoring, training and networking; the next call opens on 1 December 2026.",
+   "source": {
+    "name": "IJ4EU (Investigative Journalism for Europe)",
+    "url": "https://investigativejournalismforeu.net/"
+   },
+   "via_aggregator": false,
+   "first_seen": "2026-10-16",
+   "checked": "2026-10-17"
+  },
+  {
+   "id": "j-00bf798fdd",
+   "title": "Investigation Support Scheme",
+   "org": "IJ4EU (run by the International Press Institute)",
+   "url": "https://investigativejournalismforeu.net/grants/investigation-support-scheme/",
+   "kind": "grant",
+   "deadline": null,
+   "deadline_note": "Call paused; next call opens 1 Dec 2026, deadline nine weeks after opening",
+   "open_to": "Cross-border teams of journalists and/or news organisations based in at least two Creative Europe countries",
+   "regions": [
+    "europe"
+   ],
+   "who": [
+    "newsroom",
+    "freelance"
+   ],
+   "format": null,
+   "amount": "Grants of EUR 5,000 to EUR 50,000",
+   "topics": [
+    "investigative",
+    "conflict-rights",
+    "environment",
+    "health",
+    "economy"
+   ],
+   "languages": [
+    "en"
+   ],
+   "summary": "Funding for cross-border investigative projects in Europe, open to newsroom and freelance teams; the next call opens on 1 December 2026.",
+   "source": {
+    "name": "IJ4EU (Investigative Journalism for Europe)",
+    "url": "https://investigativejournalismforeu.net/"
+   },
+   "via_aggregator": false,
+   "first_seen": "2026-10-16",
+   "checked": "2026-10-17"
+  },
+  {
+   "id": "j-63341d9def",
+   "title": "Institutional Grants",
+   "org": "Tarbell Center for AI Journalism",
+   "url": "https://www.tarbellcenter.org/institutional-grants",
+   "kind": "grant",
+   "deadline": "2026-12-11",
+   "deadline_note": null,
+   "open_to": "Media outlets and teams, nonprofit or for-profit, building AI reporting capacity",
+   "regions": [
+    "any"
+   ],
+   "who": [
+    "newsroom"
+   ],
+   "format": null,
+   "amount": "$50,000 to $500,000+",
+   "topics": [
+    "tech-ai",
+    "investigative"
+   ],
+   "languages": [],
+   "summary": "Large grants to news outlets and teams to build AI reporting capacity, including new units, series or ventures, with an open round now running.",
+   "source": {
+    "name": "Tarbell Center for AI Journalism",
+    "url": "https://www.tarbellcenter.org/"
+   },
+   "via_aggregator": false,
+   "first_seen": "2026-10-16",
+   "checked": "2026-10-17"
+  },
+  {
+   "id": "j-452fde66be",
+   "title": "Journalists-in-Residence",
+   "org": "European Centre for Press and Media Freedom (ECPMF)",
+   "url": "https://www.ecpmf.eu/support/journalists-in-residence/",
+   "kind": "residency",
+   "deadline": null,
+   "deadline_note": "Ongoing, no deadline stated (the Kosovo strand is not taking applications)",
+   "open_to": "Threatened journalists, media workers, documentarists and press photographers; legal residents of EU member or candidate states, Council of Europe states, or Belarus/Russia; English, German or Russian at A2",
+   "regions": [
+    "europe"
+   ],
+   "who": [
+    "photographers"
+   ],
+   "format": "in person: Leipzig, Germany",
+   "amount": "Rent-free apartment, EUR 1,000 monthly stipend, health insurance, visa and travel costs",
+   "topics": [
+    "safety"
+   ],
+   "languages": [],
+   "summary": "Three to six months of safe shelter in Leipzig for journalists under threat, with stipend, housing, insurance and optional counselling and training.",
+   "source": {
+    "name": "ECPMF (European Centre for Press and Media Freedom)",
+    "url": "https://www.ecpmf.eu/"
+   },
+   "via_aggregator": false,
+   "first_seen": "2026-10-16",
+   "checked": "2026-10-17"
+  },
+  {
+   "id": "j-2503491712",
+   "title": "Journalists-in-Exile Programme",
+   "org": "European Centre for Press and Media Freedom (ECPMF)",
+   "url": "https://www.ecpmf.eu/support/journalists-in-exile-programme/",
+   "kind": "support",
+   "deadline": null,
+   "deadline_note": "Ongoing, apply by email",
+   "open_to": "Media professionals in exile in Germany, regardless of origin, who had to leave their country because of oppression or persecution",
+   "regions": [
+    "europe"
+   ],
+   "who": [
+    "exiled"
+   ],
+   "format": null,
+   "amount": null,
+   "topics": [
+    "safety"
+   ],
+   "languages": [
+    "en",
+    "de"
+   ],
+   "summary": "ECPMF arranges and pays for training, language courses, legal advice, therapy and equipment to help exiled journalists in Germany keep working.",
+   "source": {
+    "name": "ECPMF (European Centre for Press and Media Freedom)",
+    "url": "https://www.ecpmf.eu/"
+   },
+   "via_aggregator": false,
+   "first_seen": "2026-10-16",
+   "checked": "2026-10-17"
+  },
+  {
+   "id": "j-84313bdc29",
+   "title": "SAFE Psychological Support Fund",
+   "org": "European Centre for Press and Media Freedom (ECPMF), SAFE project",
+   "url": "https://www.ecpmf.eu/safe-psychological-support-fund-opens-for-applications/",
+   "kind": "grant",
+   "deadline": "2026-11-15",
+   "deadline_note": "Reviewed on a rolling basis until the deadline",
+   "open_to": "Journalists and media workers at editorially independent outlets covering Ukraine, Moldova, Armenia, Azerbaijan or Georgia",
+   "regions": [
+    "europe"
+   ],
+   "who": [],
+   "format": null,
+   "amount": "Up to EUR 500 per person",
+   "topics": [
+    "safety",
+    "health"
+   ],
+   "languages": [
+    "en"
+   ],
+   "summary": "Small grants to pay for therapy or counselling for journalists in five Eastern Partnership countries, for care completed by 31 December 2026.",
+   "source": {
+    "name": "ECPMF (European Centre for Press and Media Freedom)",
+    "url": "https://www.ecpmf.eu/"
+   },
+   "via_aggregator": false,
+   "first_seen": "2026-10-16",
+   "checked": "2026-10-17"
+  },
+  {
+   "id": "j-3807dcc9e3",
+   "title": "Practical support",
+   "org": "European Centre for Press and Media Freedom (ECPMF), with Free Press Unlimited via MFRR",
+   "url": "https://www.ecpmf.eu/support/emergency-support/",
+   "kind": "support",
+   "deadline": null,
+   "deadline_note": "Ongoing emergency support",
+   "open_to": "Media organisations and practising media professionals in an EU member or candidate state facing an emergency caused by their work",
+   "regions": [
+    "europe"
+   ],
+   "who": [],
+   "format": null,
+   "amount": null,
+   "topics": [
+    "safety",
+    "health"
+   ],
+   "languages": [],
+   "summary": "Short-term emergency help for threatened journalists, covering medical costs, subsistence, therapy, safety tools and family support, applied for through Reporters Respond.",
+   "source": {
+    "name": "ECPMF (European Centre for Press and Media Freedom)",
+    "url": "https://www.ecpmf.eu/"
+   },
+   "via_aggregator": false,
+   "first_seen": "2026-10-16",
+   "checked": "2026-10-17"
+  },
+  {
+   "id": "j-d2c3e62247",
+   "title": "2027 Ochberg Fellowships",
+   "org": "Global Center for Journalism & Trauma (GCJT)",
+   "url": "https://gcjt.org/resources/call-applications-2027-ochberg-fellowships",
+   "kind": "fellowship",
+   "deadline": "2026-10-20",
+   "deadline_note": "5pm ET; recommendation letters due 27 Oct 2026",
+   "open_to": "Mid- and senior-career journalists from any part of the world with at least five years of professional experience; students are not eligible",
+   "regions": [
+    "any"
+   ],
+   "who": [
+    "freelance",
+    "staff",
+    "photographers"
+   ],
+   "format": "in person: Paris, France",
+   "amount": "Covers return flights, 6 hotel nights, meals and a stipend for ground transport and visa",
+   "topics": [
+    "conflict-rights",
+    "safety",
+    "health"
+   ],
+   "languages": [
+    "en"
+   ],
+   "summary": "A week-long seminar in Paris (22-27 March 2027) on trauma and ethical reporting on violence and conflict, with travel and lodging paid.",
+   "source": {
+    "name": "Global Center for Journalism and Trauma: Ochberg Fellowships",
+    "url": "https://gcjt.org/resources/call-applications-2027-ochberg-fellowships"
+   },
+   "via_aggregator": false,
+   "first_seen": "2026-10-16",
+   "checked": "2026-10-17"
+  },
+  {
+   "id": "j-bce2f5f0e0",
+   "title": "Outrider Foundation: story pitches on nuclear risk and climate change",
+   "org": "Outrider Foundation",
+   "url": "https://outrider.org/writer-guidelines",
+   "kind": "call",
+   "deadline": null,
+   "deadline_note": "No deadline stated; pitches are sent by email at any time",
+   "open_to": null,
+   "regions": [],
+   "who": [],
+   "format": null,
+   "amount": "Standard rate $1,000 per story",
+   "topics": [
+    "environment",
+    "conflict-rights"
+   ],
+   "languages": [],
+   "summary": "Standing invitation to pitch narrative stories on nuclear threats and climate change; accepted pieces of roughly 1,000 to 1,200 words are paid per story.",
+   "source": {
+    "name": "Outrider Foundation",
+    "url": "https://outrider.org/"
+   },
+   "via_aggregator": true,
+   "first_seen": "2026-10-16",
+   "checked": "2026-10-17"
+  },
+  {
+   "id": "j-2dd159b9c8",
+   "title": "Fund for Investigative Journalism: Regular and Seed Grants (winter 2027 round)",
+   "org": "Fund for Investigative Journalism",
+   "url": "https://fij.org/apply-for-a-grant/",
+   "kind": "grant",
+   "deadline": "2027-01-29",
+   "deadline_note": "Winter round; spring and summer 2027 deadlines to be announced. Follow-up grants and regular grants after a seed grant are reviewed on a rolling basis",
+   "open_to": "Freelance journalists, staff reporters and media outlets; foreign-based proposals need a strong U.S. angle and a U.S. outlet",
+   "regions": [],
+   "who": [
+    "freelance",
+    "staff",
+    "newsroom"
+   ],
+   "format": null,
+   "amount": "Regular grants up to $10,000; seed grants up to $2,500",
+   "topics": [
+    "investigative"
+   ],
+   "languages": [
+    "en"
+   ],
+   "summary": "Grants for US-focused investigative reporting costs such as travel, records and reporting time, with small seed grants for early groundwork.",
+   "source": {
+    "name": "Fund for Investigative Journalism (FIJ)",
+    "url": "https://fij.org/"
+   },
+   "via_aggregator": true,
+   "first_seen": "2026-10-16",
+   "checked": "2026-10-17"
+  },
+  {
+   "id": "j-12d25a14b9",
+   "title": "SJN/MIT Climate Journalism Fellowship 2027",
+   "org": "Solutions Journalism Network with MIT",
+   "url": "https://www.solutionsjournalism.org/program/sjn-mit-climate-fellowship",
+   "kind": "fellowship",
+   "deadline": "2026-10-26",
+   "deadline_note": "Applications due at midnight on 26 October 2026; fellows selected by 30 November",
+   "open_to": "Freelance and staff journalists based in the U.S., with interest from a local or regional news outlet to publish the project",
+   "regions": [
+    "north-america"
+   ],
+   "who": [
+    "freelance",
+    "staff"
+   ],
+   "format": "hybrid: Halifax, Canada",
+   "amount": "$7,500 stipend",
+   "topics": [
+    "environment"
+   ],
+   "languages": [],
+   "summary": "Eight-month fellowship, January to August 2027, for ten US journalists to report local climate solutions stories, with training, coaching and a stipend.",
+   "source": {
+    "name": "Solutions Journalism Network",
+    "url": "https://www.solutionsjournalism.org/"
+   },
+   "via_aggregator": true,
+   "first_seen": "2026-10-16",
+   "checked": "2026-10-19"
+  },
+  {
+   "id": "j-b6fe39688b",
+   "title": "AI-Assisted Data Journalism (online masterclass)",
+   "org": "Arena for Journalism in Europe",
+   "url": "https://journalismarena.eu/course-ai-assisted-data-journalism-26/",
+   "kind": "training",
+   "deadline": "2026-11-15",
+   "deadline_note": "Midnight CEST on 15 November 2026, or until the 10 places are full; sessions 17 November to 1 December 2026",
+   "open_to": "Reporters, editors and researchers with some experience in data analysis (know what a pivot table is); no coding experience required",
+   "regions": [],
+   "who": [],
+   "format": "remote",
+   "amount": "Course fee EUR 350; discounted places available on request",
+   "topics": [
+    "data-osint",
+    "tech-ai"
+   ],
+   "languages": [],
+   "summary": "Three live two-hour sessions teaching journalists to use local AI coding agents for cleaning data, analysis and scraping, with homework between sessions.",
+   "source": {
+    "name": "Arena for Journalism in Europe",
+    "url": "https://journalismarena.eu/"
+   },
+   "via_aggregator": true,
+   "first_seen": "2026-10-16",
+   "checked": "2026-10-17"
+  },
+  {
+   "id": "j-76d8e50a5a",
+   "title": "Hans Staiger Investigative Reporting Award 2027",
+   "org": "International Center for Journalists (ICFJ), with OCCRP",
+   "url": "https://www.icfj.org/our-work/hans-staiger-investigative-reporting-award",
+   "kind": "grant",
+   "deadline": "2026-11-15",
+   "deadline_note": "Applications open 17 September to 15 November 2026",
+   "open_to": "Journalists in the global network of the Organized Crime and Corruption Reporting Project (OCCRP)",
+   "regions": [],
+   "who": [],
+   "format": null,
+   "amount": "$5,000",
+   "topics": [
+    "investigative"
+   ],
+   "languages": [
+    "en"
+   ],
+   "summary": "One $5,000 award a year funds an OCCRP-network journalist's investigative project, with OCCRP help on research, editing, fact-checking and legal review.",
+   "source": {
+    "name": "ICFJ (International Center for Journalists)",
+    "url": "https://www.icfj.org/our-programs"
+   },
+   "via_aggregator": true,
+   "first_seen": "2026-10-16",
+   "checked": "2026-10-17"
+  },
+  {
+   "id": "j-e34049a5f4",
+   "title": "Nieman Fellowships at Harvard (2027-28 class)",
+   "org": "Nieman Foundation for Journalism at Harvard",
+   "url": "https://nieman.harvard.edu/fellowships/how-to-apply/",
+   "kind": "fellowship",
+   "deadline": "2026-12-01",
+   "deadline_note": "International (non-U.S. citizens): 1 December; U.S. citizens: 31 January. Years are not printed on the page, inferred from the 2027-28 class",
+   "open_to": "Working journalists with at least five years of full-time media experience, from any country",
+   "regions": [
+    "any"
+   ],
+   "who": [],
+   "format": "in person: Cambridge, United States",
+   "amount": "$87,500 stipend over nine months, plus child care and health insurance support",
+   "topics": [],
+   "languages": [
+    "en"
+   ],
+   "summary": "Academic-year fellowship at Harvard where about two dozen journalists study, audit classes and join a cohort, including an innovation track with the Berkman Klein Center.",
+   "source": {
+    "name": "Nieman Foundation fellowships",
+    "url": "https://nieman.harvard.edu/fellowships/"
+   },
+   "via_aggregator": true,
+   "first_seen": "2026-10-16",
+   "checked": "2026-10-17"
+  },
+  {
+   "id": "j-0ec5fe5f0e",
+   "title": "The Stringer Awards 2027",
+   "org": "The Stringer Foundation",
+   "url": "https://stringerjournalism.org/awards",
+   "kind": "award",
+   "deadline": "2026-12-31",
+   "deadline_note": "Deadline as stated on the application form (about 15 to 20 minutes to complete); first multi-year awards planned for autumn 2026",
+   "open_to": "Journalists and creative practitioners across all public media forms, senior and emerging, who expose abuses of power; applications may be written in your own language",
+   "regions": [],
+   "who": [],
+   "format": null,
+   "amount": "Multi-year unrestricted cash awards, aiming for $9k to $100k depending on funds raised",
+   "topics": [
+    "conflict-rights",
+    "safety",
+    "investigative"
+   ],
+   "languages": [],
+   "summary": "Unrestricted multi-year cash awards for journalists who expose abuses of power, with vetted applicants also offered safety, mental health, publication and legal support.",
+   "source": {
+    "name": "The Stringer Foundation",
+    "url": "https://stringerjournalism.org/"
+   },
+   "via_aggregator": true,
+   "first_seen": "2026-10-16",
+   "checked": "2026-10-19"
+  },
+  {
+   "id": "j-0cf467b37a",
+   "title": "Gordon N. Fisher / Journalists for Human Rights Fellowship",
+   "org": "Massey College, University of Toronto, with Journalists for Human Rights",
+   "url": "https://masseycollege.ca/wsjf-applications-2026-2027/",
+   "kind": "fellowship",
+   "deadline": "2026-12-01",
+   "deadline_note": "Applications opened 1 October 2026; for the 2027-2028 academic year",
+   "open_to": "One journalist from Sub-Saharan Africa or the Middle East, fluent in written and spoken English, with at least seven years of journalism experience",
+   "regions": [
+    "africa",
+    "mena"
+   ],
+   "who": [],
+   "format": "in person: Toronto, Canada",
+   "amount": "$4,900 a month for eight months, plus University of Toronto fees and round-trip economy airfare",
+   "topics": [],
+   "languages": [
+    "en"
+   ],
+   "summary": "A year of study at the University of Toronto for one journalist from Sub-Saharan Africa or the Middle East, with monthly stipend and airfare.",
+   "source": {
+    "name": "GFMD: funding opportunities",
+    "url": "https://gfmd.info/fundings/"
+   },
+   "via_aggregator": true,
+   "first_seen": "2026-10-19",
+   "checked": "2026-10-19"
+  },
+  {
+   "id": "j-b58572ec17",
+   "title": "Knight-Wallace Fellowships 2027-2028 (international applicants)",
+   "org": "Wallace House Center for Journalists, University of Michigan",
+   "url": "https://wallacehouse.umich.edu/knight-wallace/how-to-apply/",
+   "kind": "fellowship",
+   "deadline": "2026-12-01",
+   "deadline_note": "International deadline; U.S. applicants have until 1 February 2027",
+   "open_to": "Non-U.S. citizens with at least five years of experience, working in journalism for a news organisation or independently",
+   "regions": [
+    "any"
+   ],
+   "who": [
+    "freelance",
+    "staff"
+   ],
+   "format": "in person: Ann Arbor, United States",
+   "amount": null,
+   "topics": [],
+   "languages": [],
+   "summary": "Academic-year fellowship in Ann Arbor for experienced journalists to pursue a project; international applicants apply separately from U.S. citizens, with offers by mid-February 2027.",
+   "source": {
+    "name": "GFMD: funding opportunities",
+    "url": "https://gfmd.info/fundings/"
+   },
+   "via_aggregator": true,
+   "first_seen": "2026-10-19",
+   "checked": "2026-10-19"
+  },
+  {
+   "id": "j-f5c6050999",
+   "title": "Early-Career Fellowship Program",
+   "org": "The Open Notebook",
+   "url": "https://www.theopennotebook.com/early-career-fellowship-program/",
+   "kind": "fellowship",
+   "deadline": "2026-10-31",
+   "deadline_note": null,
+   "open_to": "Early-career science journalists with fewer than three years of regular professional experience writing about science for the public; applicants outside the U.S. welcome",
+   "regions": [
+    "any"
+   ],
+   "who": [
+    "early-career"
+   ],
+   "format": "remote",
+   "amount": "$6,600 total, paid in installments",
+   "topics": [
+    "science"
+   ],
+   "languages": [
+    "en"
+   ],
+   "summary": "Paid, part-time 12-month remote fellowship where early-career science journalists work with a mentor to report and publish articles for The Open Notebook, starting February 2027.",
+   "source": {
+    "name": "HostWIRE (Hostwriter forum)",
+    "url": "https://hostwriter.org/"
+   },
+   "via_aggregator": true,
+   "first_seen": "2026-10-19",
+   "checked": "2026-10-19"
+  },
+  {
+   "id": "j-072b2e4e36",
+   "title": "Bilingual International Journalism Traineeship",
+   "org": "DW Akademie (Deutsche Welle)",
+   "url": "https://akademie.dw.com/en/faq-traineeship/s-101208",
+   "kind": "job",
+   "deadline": "2026-11-17",
+   "deadline_note": "applications open 13 Oct 2026 to 17 Nov 2026, 12:00 (UTC+1)",
+   "open_to": "People with a university degree in any subject and journalistic experience or a wish to switch to journalism; German and English are both mandatory; no age limit",
+   "regions": [
+    "any"
+   ],
+   "who": [
+    "early-career"
+   ],
+   "format": "in person: Germany",
+   "amount": "monthly salary (amount not stated)",
+   "topics": [],
+   "languages": [
+    "de",
+    "en"
+   ],
+   "summary": "Salaried 18-month bilingual German-English journalism traineeship at DW, with twelve places for aspiring journalists from around the world, applied for via an online portal.",
+   "source": {
+    "name": "HostWIRE (Hostwriter forum)",
+    "url": "https://hostwriter.org/"
+   },
+   "via_aggregator": true,
+   "first_seen": "2026-10-19",
+   "checked": "2026-10-19"
+  },
+  {
+   "id": "j-077d284202",
+   "title": "Researcher, North Africa",
+   "org": "Committee to Protect Journalists (CPJ)",
+   "url": "https://cpjorg.bamboohr.com/careers/112",
+   "kind": "job",
+   "deadline": "2026-10-23",
+   "deadline_note": null,
+   "open_to": "Mid-level researchers based in North Africa, the Middle East or a similar time zone (such as Europe); able to translate between Arabic and English",
+   "regions": [
+    "mena",
+    "europe"
+   ],
+   "who": [
+    "staff"
+   ],
+   "format": "remote",
+   "amount": "locally adjusted salary via employer of record; example USD 24,135 to 31,237 a year if hired in Morocco",
+   "topics": [
+    "conflict-rights",
+    "safety"
+   ],
+   "languages": [
+    "ar",
+    "en"
+   ],
+   "summary": "Fully remote role documenting press freedom violations and attacks on journalists in North Africa, writing alerts and reports, and vetting journalist assistance requests.",
+   "source": {
+    "name": "HostWIRE (Hostwriter forum)",
+    "url": "https://hostwriter.org/"
+   },
+   "via_aggregator": true,
+   "first_seen": "2026-10-19",
+   "checked": "2026-10-19"
+  },
+  {
+   "id": "j-f8ba42d196",
+   "title": "Spanish editor",
+   "org": "The European Correspondent",
+   "url": "https://europeancorrespondent.com/en/s/spanish-editor",
+   "kind": "job",
+   "deadline": null,
+   "deadline_note": "no closing date stated; start date 4 January 2027",
+   "open_to": "Native Spanish speakers with excellent English and at least a year in Spanish-language media; must be a registered freelancer in an EU country",
+   "regions": [
+    "europe"
+   ],
+   "who": [
+    "freelance"
+   ],
+   "format": "remote",
+   "amount": "EUR 1,200 to 1,440 depending on where you live (10 days a month)",
+   "topics": [],
+   "languages": [
+    "es",
+    "en"
+   ],
+   "summary": "Part-time freelance editor who translates and edits the outlet's newsletters, social posts and videos into Spanish and builds engagement campaigns for Spanish-speaking readers.",
+   "source": {
+    "name": "HostWIRE (Hostwriter forum)",
+    "url": "https://hostwriter.org/"
+   },
+   "via_aggregator": true,
+   "first_seen": "2026-10-19",
+   "checked": "2026-10-19"
+  },
+  {
+   "id": "j-448b6de945",
+   "title": "Freelance Researcher (women's financial equality)",
+   "org": "The Fawcett Society",
+   "url": "https://www.fawcettsociety.org.uk/work-with-us",
+   "kind": "job",
+   "deadline": "2026-10-20",
+   "deadline_note": "page gives \"20 October 23:59\" without a year; page was published Sept 2026 and updated Oct 2026",
+   "open_to": "Established researchers with rigorous research skills and an investigative instinct; background may be research, journalism, policy or campaigning",
+   "regions": [
+    "europe"
+   ],
+   "who": [
+    "freelance"
+   ],
+   "format": "remote",
+   "amount": "£400 per day, 20 days across three months",
+   "topics": [
+    "investigative",
+    "economy"
+   ],
+   "languages": [],
+   "summary": "Short freelance research contract alongside the charity's investigative researcher on women's working and financial lives, remote within the UK, starting immediately.",
+   "source": {
+    "name": "HostWIRE (Hostwriter forum)",
+    "url": "https://hostwriter.org/"
+   },
+   "via_aggregator": true,
+   "first_seen": "2026-10-19",
+   "checked": "2026-10-19"
+  },
+  {
+   "id": "j-2609e35996",
+   "title": "Feature Writer (freelance)",
+   "org": "How-To Geek (Valnet Publishing Group)",
+   "url": "https://www.howtogeek.com/work-with-us/",
+   "kind": "job",
+   "deadline": null,
+   "deadline_note": "no closing date stated",
+   "open_to": "Experienced tech writers with 1+ year of relevant experience writing and editing English tech content; must work reliably within a US time zone; not a news-writing role",
+   "regions": [],
+   "who": [
+    "freelance"
+   ],
+   "format": "remote",
+   "amount": "competitive per-article fee (amount not stated)",
+   "topics": [
+    "tech-ai"
+   ],
+   "languages": [
+    "en"
+   ],
+   "summary": "Remote 1099 freelance role writing how-to guides, tutorials and explainers on hardware, operating systems, mobile and smart home topics, chosen from a pool of assignments.",
+   "source": {
+    "name": "HostWIRE (Hostwriter forum)",
+    "url": "https://hostwriter.org/"
+   },
+   "via_aggregator": true,
+   "first_seen": "2026-10-19",
+   "checked": "2026-10-19"
+  },
+  {
+   "id": "j-04eaf78c96",
+   "title": "English Desk Editor (Bangkok / Hong Kong / Los Angeles / Washington)",
+   "org": "Agence France-Presse (AFP)",
+   "url": "https://www.welcometothejungle.com/en/companies/agence-france-presse/jobs/english-editor-hong-kong-bangkok-washington-los-angeles",
+   "kind": "job",
+   "deadline": null,
+   "deadline_note": "no closing date stated; start date 31 December 2026",
+   "open_to": "Experienced journalists with at least three years of editorial experience, preferably in both reporting and editing; willing to work any shift and weekends",
+   "regions": [
+    "asia",
+    "north-america"
+   ],
+   "who": [
+    "staff"
+   ],
+   "format": "in person: Bangkok, Hong Kong, Los Angeles or Washington",
+   "amount": null,
+   "topics": [],
+   "languages": [
+    "en"
+   ],
+   "summary": "Permanent editing posts on AFP's English-language news desks in Asia and North America, which can lead to reporting assignments and correspondent postings.",
+   "source": {
+    "name": "HostWIRE (Hostwriter forum)",
+    "url": "https://hostwriter.org/"
+   },
+   "via_aggregator": true,
+   "first_seen": "2026-10-19",
+   "checked": "2026-10-19"
+  },
+  {
+   "id": "j-7731681d30",
+   "title": "Journaliste rédacteur.rice arabophone",
+   "org": "France 24 (France Médias Monde)",
+   "url": "https://recrutement-francemm.gestmax.fr/865/1/journaliste-redacteur-rice-arabophone",
+   "kind": "job",
+   "deadline": null,
+   "deadline_note": "no deadline stated; listed since 16 July 2026",
+   "open_to": "Journalists with literary Arabic and fluent French, with web newsroom experience",
+   "regions": [
+    "europe"
+   ],
+   "who": [
+    "freelance"
+   ],
+   "format": "in person: Issy-les-Moulineaux, France",
+   "amount": null,
+   "topics": [
+    "conflict-rights"
+   ],
+   "languages": [
+    "ar",
+    "fr"
+   ],
+   "summary": "Freelance web journalist writing in literary Arabic for a France Medias Monde information portal aimed at migrants, producing text, social posts and mobile video.",
+   "source": {
+    "name": "HostWIRE (Hostwriter forum)",
+    "url": "https://hostwriter.org/"
+   },
+   "via_aggregator": true,
+   "first_seen": "2026-10-19",
+   "checked": "2026-10-19"
+  },
+  {
+   "id": "j-1c72c83791",
+   "title": "How to Pitch Nieman Reports",
+   "org": "Nieman Reports (Nieman Foundation for Journalism at Harvard)",
+   "url": "https://niemanreports.org/about-nieman-reports/how-to-pitch-nieman-reports/",
+   "kind": "call",
+   "deadline": null,
+   "deadline_note": "no deadline stated; pitch by email to the editor",
+   "open_to": null,
+   "regions": [],
+   "who": [],
+   "format": null,
+   "amount": "$1 per word for features; $250 for opinion columns",
+   "topics": [
+    "media-business"
+   ],
+   "languages": [],
+   "summary": "Open pitching for reported features of 1,200 to 3,000 words and opinion columns on challenges, trends and craft in journalism today.",
+   "source": {
+    "name": "HostWIRE (Hostwriter forum)",
+    "url": "https://hostwriter.org/"
+   },
+   "via_aggregator": true,
+   "first_seen": "2026-10-19",
+   "checked": "2026-10-19"
+  },
+  {
+   "id": "j-575ef89fee",
+   "title": "Video Pitches",
+   "org": "Mongabay",
+   "url": "https://mongabay.org/opportunity/video-pitches/",
+   "kind": "call",
+   "deadline": null,
+   "deadline_note": "open, no deadline stated",
+   "open_to": "Experienced video journalists, producers, DPs, editors, animators",
+   "regions": [],
+   "who": [],
+   "format": null,
+   "amount": null,
+   "topics": [
+    "environment",
+    "visual"
+   ],
+   "languages": [
+    "en",
+    "es",
+    "pt",
+    "fr",
+    "id",
+    "km"
+   ],
+   "summary": "Mongabay takes pitches for short environmental documentaries and vertical news videos, preferring early-stage proposals with shot list, timeline and budget.",
+   "source": {
+    "name": "HostWIRE (Hostwriter forum)",
+    "url": "https://hostwriter.org/"
+   },
+   "via_aggregator": true,
+   "first_seen": "2026-10-19",
+   "checked": "2026-10-19"
+  }
+ ],
+ "watching": [
+  {
+   "id": "j-1075197700",
+   "title": "Southern Africa Accountability Journalism Project (SA|AJP) Investigative Journalism Grants",
+   "org": "Henry Nxumalo Foundation",
+   "url": "https://henrynxumalofoundation.co.za/sa-ajp-2/",
+   "kind": "grant",
+   "summary": "Investigative grants with editor support, training and publishing help for southern African journalists and newsrooms; the foundation says the current round has closed.",
+   "status": null
+  },
+  {
+   "id": "j-359b44f7c3",
+   "title": "Call for proposals",
+   "org": "Jamma Conservation and Communities",
+   "url": "https://jammaconservationandcommunities.com/opportunities/call-for-proposals/",
+   "kind": "call",
+   "summary": "Page for organisations' project proposals that currently shows no open call, only a newsletter sign-up for the next round.",
+   "status": null
+  },
+  {
+   "id": "j-824d17bd0a",
+   "title": "Reporting Grants",
+   "org": "Tarbell Center for AI Journalism",
+   "url": "https://www.tarbellcenter.org/grants",
+   "kind": "grant",
+   "summary": "Grants for original reporting on AI published in established outlets; the latest round is closed and no new date is given.",
+   "status": null
+  },
+  {
+   "id": "j-6b3bc20010",
+   "title": "European Collaborative Journalism Programme (ECJP)",
+   "org": "Alfred Toepfer Stiftung F.V.S., with Arena for Journalism in Europe",
+   "url": "https://www.toepfer-stiftung.de/en/what-we-do/european-collaborative-journalism-programme",
+   "kind": "fellowship",
+   "summary": "Two-part training and networking programme in which European journalists develop cross-border investigation ideas together, ending with a follow-up meeting at the Dataharvest conference.",
+   "status": "Closed, 2026 round has ended; the page says the next call will be announced in late autumn/early winter."
+  },
+  {
+   "id": "j-b19972498f",
+   "title": "Daniel Pearl Investigative Journalism Initiative (DPIJI) Fellowship",
+   "org": "Moment Magazine",
+   "url": "https://www.dpiji.org/apply",
+   "kind": "fellowship",
+   "summary": "One fellow a year gets financial and editorial support to report a long-form investigation on anti-Semitism or other entrenched prejudice, published in Moment.",
+   "status": "Closed for 2026 (deadline was 20 August 2026); next round not stated."
+  },
+  {
+   "id": "j-9a4278b7a2",
+   "title": "McGraw Fellowship for Business Journalism",
+   "org": "Harold W. McGraw, Jr. Center for Business Journalism, CUNY Craig Newmark Graduate School of Journalism",
+   "url": "https://www.mcgrawcenter.org/the-harold-w-mcgraw-jr-business-journalism-fellowships/",
+   "kind": "fellowship",
+   "summary": "Grants and editing support for experienced journalists to produce in-depth investigative or enterprise stories with a business, financial or economic angle.",
+   "status": "Closed, fall 2026 deadline was 12 October 2026; the page lists the next (Spring 2027) deadline as October 12, 2027, exactly as written."
+  },
+  {
+   "id": "j-c53d8371ac",
+   "title": "UC Berkeley Journalism Fellowships",
+   "org": "UC Berkeley Graduate School of Journalism",
+   "url": "https://fellowships.journalism.berkeley.edu/",
+   "kind": "fellowship",
+   "summary": "Hub for Berkeley fellowships: reporting grants on psychedelics, a psychedelic documentary fellowship, and paid California local-news placements for early-career reporters.",
+   "status": "Closed: Mycoskie documentary deadline (extended to 13 October) has passed, Ferriss applications closed, 2026 California Local News Fellowship application closed."
+  },
+  {
+   "id": "j-d66b1a71b6",
+   "title": "Knight Science Journalism Fellowships at MIT",
+   "org": "Knight Science Journalism Program, MIT",
+   "url": "https://ksj.mit.edu/fellowships/",
+   "kind": "fellowship",
+   "summary": "Residential MIT fellowships where science journalists pursue a journalism project and audit courses; one semester-long track is for journalists from Africa and the Middle East.",
+   "status": "Closed for now: next round opens 15 November 2026 and closes 9 January 2027."
+  },
+  {
+   "id": "j-8a75702e55",
+   "title": "Collaborative and Investigative Journalism Initiative (CIJI)",
+   "org": "CIJI: Free Press Unlimited, Tactical Tech, RSF, Fundacja Reporterów, OBC Transeuropa and Delfi, with EU support",
+   "url": "https://www.ciji.info/announcements",
+   "kind": "support",
+   "summary": "EU-funded initiative offering recurring grants, residencies and training for collaborative and investigative journalism, announced as separate calls on its announcements page.",
+   "status": "No open call listed; recent grant and residency calls have closed, and the page suggests subscribing to the newsletter for future ones."
+  }
+ ],
+ "directory": [
+  {
+   "name": "Arena for Journalism in Europe",
+   "url": "https://journalismarena.eu/",
+   "cat": "networks",
+   "note": "Network for collaborative journalism in Europe: the Dataharvest conference, courses and programmes.",
+   "coverage": "weekly",
+   "last_ok": "2026-10-18",
+   "failed": false
+  },
+  {
+   "name": "CIJI (Collaborative and Investigative Journalism Initiative)",
+   "url": "https://www.ciji.info/announcements",
+   "cat": "lists",
+   "note": "EU-funded initiative announcing grants, residencies and training for collaborative journalism.",
+   "coverage": "weekly",
+   "last_ok": "2026-10-18",
+   "failed": false
+  },
+  {
+   "name": "Daniel Pearl Investigative Journalism Initiative",
+   "url": "https://www.dpiji.org/apply",
+   "cat": "funders",
+   "note": "Moment Magazine fellowship: one investigation a year on antisemitism or other entrenched prejudice.",
+   "coverage": "weekly",
+   "last_ok": "2026-10-18",
+   "failed": false
+  },
+  {
+   "name": "Earth Journalism Network",
+   "url": "https://earthjournalism.net/opportunities",
+   "cat": "funders",
+   "note": "Internews network: environment reporting grants, fellowships and workshops, often for specific countries.",
+   "coverage": "weekly",
+   "last_ok": "2026-10-18",
+   "failed": false
+  },
+  {
+   "name": "ECPMF (European Centre for Press and Media Freedom)",
+   "url": "https://www.ecpmf.eu/",
+   "cat": "networks",
+   "note": "Residencies, legal and practical support, and a programme for exiled journalists in Germany.",
+   "coverage": "weekly",
+   "last_ok": "2026-10-18",
+   "failed": false
+  },
+  {
+   "name": "European Journalism Centre",
+   "url": "https://ejc.net/news",
+   "cat": "funders",
+   "note": "Runs grant programmes for journalists and newsrooms; new calls are announced in its news.",
+   "coverage": "weekly",
+   "last_ok": "2026-10-18",
+   "failed": false
+  },
+  {
+   "name": "Freelance Writers Online: calls for pitches",
+   "url": "https://freelancewritersonline.com/calls-for-pitches/",
+   "cat": "freelance",
+   "note": "Running list of publications open to pitches, with what each wants and how to submit.",
+   "coverage": "weekly",
+   "last_ok": "2026-10-18",
+   "failed": false
+  },
+  {
+   "name": "Freelancer.com",
+   "url": "https://www.freelancer.com/",
+   "cat": "freelance",
+   "note": "General freelance marketplace, not journalism-specific.",
+   "coverage": "direct",
+   "last_ok": null,
+   "failed": false
+  },
+  {
+   "name": "Freelancing.eu",
+   "url": "https://freelancing.eu/",
+   "cat": "freelance",
+   "note": "Directory of European freelancers and freelance platforms, with freelance news.",
+   "coverage": "direct",
+   "last_ok": null,
+   "failed": false
+  },
+  {
+   "name": "Fund for Investigative Journalism (FIJ)",
+   "url": "https://fij.org/",
+   "cat": "funders",
+   "note": "Grants for investigative reporting costs, plus small seed grants. US-focused.",
+   "coverage": "weekly",
+   "last_ok": "2026-10-18",
+   "failed": false
+  },
+  {
+   "name": "fundsforNGOs",
+   "url": "https://www.fundsforngos.org/",
+   "cat": "lists",
+   "note": "Large funding list for NGOs and media. Most current calls sit behind a paid membership: find the funder's own page instead, and never pay to apply.",
+   "coverage": "paywall",
+   "last_ok": null,
+   "failed": false
+  },
+  {
+   "name": "GFMD: funding opportunities",
+   "url": "https://gfmd.info/fundings/",
+   "cat": "lists",
+   "note": "Global Forum for Media Development's running list of funding calls for journalists and media.",
+   "coverage": "weekly",
+   "last_ok": "2026-10-18",
+   "failed": false
+  },
+  {
+   "name": "GIJN jobs board",
+   "url": "https://gijn.org/jobs/",
+   "cat": "jobs",
+   "note": "Global Investigative Journalism Network's jobs board. GIJN also publishes guides and tip sheets.",
+   "coverage": "weekly",
+   "last_ok": "2026-10-18",
+   "failed": false
+  },
+  {
+   "name": "Global Center for Journalism and Trauma: Ochberg Fellowships",
+   "url": "https://gcjt.org/resources/call-applications-2027-ochberg-fellowships",
+   "cat": "funders",
+   "note": "Yearly fellowship for journalists who cover violence, conflict and trauma.",
+   "coverage": "weekly",
+   "last_ok": "2026-10-18",
+   "failed": false
+  },
+  {
+   "name": "Global South Opportunities",
+   "url": "https://www.globalsouthopportunities.com/",
+   "cat": "lists",
+   "note": "Opportunities for people from the Global South, including journalism calls.",
+   "coverage": "weekly",
+   "last_ok": "2026-10-18",
+   "failed": false
+  },
+  {
+   "name": "HackPack",
+   "url": "https://hackpack.press/",
+   "cat": "freelance",
+   "note": "Marketplace where outlets hire freelance journalists, fixers, photographers and videographers.",
+   "coverage": "direct",
+   "last_ok": null,
+   "failed": false
+  },
+  {
+   "name": "HostWIRE (Hostwriter forum)",
+   "url": "https://hostwire.org/",
+   "cat": "networks",
+   "note": "Hostwriter's forum for members: fellowships, jobs, pitch calls and co-author requests, often posted early.",
+   "coverage": "members",
+   "last_ok": null,
+   "failed": false
+  },
+  {
+   "name": "Hostwriter",
+   "url": "https://hostwriter.org/",
+   "cat": "networks",
+   "note": "Network that connects journalists for cross-border collaboration, based in Berlin.",
+   "coverage": "direct",
+   "last_ok": null,
+   "failed": false
+  },
+  {
+   "name": "ICFJ (International Center for Journalists)",
+   "url": "https://www.icfj.org/our-programs",
+   "cat": "training",
+   "note": "Training programmes, fellowships and awards for journalists worldwide.",
+   "coverage": "weekly",
+   "last_ok": "2026-10-18",
+   "failed": false
+  },
+  {
+   "name": "IJ4EU (Investigative Journalism for Europe)",
+   "url": "https://investigativejournalismforeu.net/",
+   "cat": "funders",
+   "note": "Grants for cross-border public-interest investigations in Europe, with a separate scheme for freelancers.",
+   "coverage": "weekly",
+   "last_ok": "2026-10-18",
+   "failed": false
+  },
+  {
+   "name": "IJNet",
+   "url": "https://ijnet.org/en/opportunities",
+   "cat": "lists",
+   "note": "ICFJ's International Journalists' Network: opportunities and training, also in Arabic.",
+   "coverage": "weekly",
+   "last_ok": "2026-10-18",
+   "failed": false
+  },
+  {
+   "name": "Jamma Conservation and Communities",
+   "url": "https://jammaconservationandcommunities.com/",
+   "cat": "funders",
+   "note": "Storytelling grants and competitions about people and conservation.",
+   "coverage": "weekly",
+   "last_ok": "2026-10-18",
+   "failed": false
+  },
+  {
+   "name": "Journalismfund Europe",
+   "url": "https://www.journalismfund.eu/",
+   "cat": "funders",
+   "note": "Grants for cross-border investigative teams. Its database of supported projects shows who got funded and for what.",
+   "coverage": "direct",
+   "last_ok": null,
+   "failed": false
+  },
+  {
+   "name": "Journalist.net",
+   "url": "https://journalist.net/",
+   "cat": "freelance",
+   "note": "Network where outlets find, book and pay freelance news professionals.",
+   "coverage": "direct",
+   "last_ok": null,
+   "failed": false
+  },
+  {
+   "name": "JournalistID",
+   "url": "https://journalistid.com/",
+   "cat": "tools",
+   "note": "International journalist identification database and community. Check whether it is recognised where you work.",
+   "coverage": "direct",
+   "last_ok": null,
+   "failed": false
+  },
+  {
+   "name": "Journo Resources",
+   "url": "https://www.journoresources.org.uk/",
+   "cat": "jobs",
+   "note": "UK careers site: jobs, freelance rates and pitching guides.",
+   "coverage": "weekly",
+   "last_ok": "2026-10-18",
+   "failed": false
+  },
+  {
+   "name": "McGraw Center for Business Journalism",
+   "url": "https://www.mcgrawcenter.org/",
+   "cat": "funders",
+   "note": "Fellowships with funding and editing for in-depth business and economics stories.",
+   "coverage": "weekly",
+   "last_ok": "2026-10-18",
+   "failed": false
+  },
+  {
+   "name": "MIT Knight Science Journalism fellowships",
+   "url": "https://ksj.mit.edu/fellowships/",
+   "cat": "funders",
+   "note": "Residential MIT fellowships for science journalists, including a track for Africa and the Middle East.",
+   "coverage": "weekly",
+   "last_ok": "2026-10-18",
+   "failed": false
+  },
+  {
+   "name": "Money Trail",
+   "url": "https://www.money-trail.org/grants/",
+   "cat": "funders",
+   "note": "Grants for teams investigating illicit financial flows. No new calls since 2020; kept for reference.",
+   "coverage": "weekly",
+   "last_ok": "2026-10-18",
+   "failed": false
+  },
+  {
+   "name": "MuckRock",
+   "url": "https://www.muckrock.com/",
+   "cat": "tools",
+   "note": "Files and tracks public-records (FOIA) requests, mostly in the US.",
+   "coverage": "direct",
+   "last_ok": null,
+   "failed": false
+  },
+  {
+   "name": "Nieman Foundation fellowships",
+   "url": "https://nieman.harvard.edu/fellowships/",
+   "cat": "funders",
+   "note": "Academic-year fellowships at Harvard for working journalists.",
+   "coverage": "weekly",
+   "last_ok": "2026-10-18",
+   "failed": false
+  },
+  {
+   "name": "NYU Arthur L. Carter Journalism Institute",
+   "url": "https://journalism.nyu.edu/",
+   "cat": "training",
+   "note": "Journalism school in New York.",
+   "coverage": "direct",
+   "last_ok": null,
+   "failed": false
+  },
+  {
+   "name": "Opportunity Desk",
+   "url": "https://opportunitydesk.org/",
+   "cat": "lists",
+   "note": "General opportunities site; look for its journalism and media posts.",
+   "coverage": "weekly",
+   "last_ok": "2026-10-18",
+   "failed": false
+  },
+  {
+   "name": "Outrider Foundation",
+   "url": "https://outrider.org/",
+   "cat": "funders",
+   "note": "Pays per story for narrative journalism on nuclear threats and climate change.",
+   "coverage": "weekly",
+   "last_ok": "2026-10-18",
+   "failed": false
+  },
+  {
+   "name": "Pulitzer Center",
+   "url": "https://pulitzercenter.org/",
+   "cat": "funders",
+   "note": "Reporting grants on many themes, mostly rolling and open to journalists worldwide.",
+   "coverage": "weekly",
+   "last_ok": "2026-10-18",
+   "failed": false
+  },
+  {
+   "name": "ResponseSource",
+   "url": "https://www.responsesource.com/",
+   "cat": "tools",
+   "note": "Media tools; its enquiry service helps journalists find sources and experts.",
+   "coverage": "direct",
+   "last_ok": null,
+   "failed": false
+  },
+  {
+   "name": "Solutions Journalism Network",
+   "url": "https://www.solutionsjournalism.org/",
+   "cat": "training",
+   "note": "Training, fellowships and resources for reporting on how people respond to problems.",
+   "coverage": "weekly",
+   "last_ok": "2026-10-18",
+   "failed": false
+  },
+  {
+   "name": "Tarbell Center for AI Journalism",
+   "url": "https://www.tarbellcenter.org/",
+   "cat": "funders",
+   "note": "Reporting grants, institutional grants and residencies for journalism about artificial intelligence.",
+   "coverage": "weekly",
+   "last_ok": "2026-10-18",
+   "failed": false
+  },
+  {
+   "name": "taz Panter Stiftung network",
+   "url": "https://network.panterstiftung.de/opportunities-en/",
+   "cat": "lists",
+   "note": "Calls, jobs and programmes for journalists collected by the taz Panter Stiftung network.",
+   "coverage": "weekly",
+   "last_ok": "2026-10-18",
+   "failed": false
+  },
+  {
+   "name": "The Africa Institute (Sharjah)",
+   "url": "https://www.theafricainstitute.org/",
+   "cat": "funders",
+   "note": "Academic, translation and creative-writing fellowships on Africa and its diaspora. Not journalism-specific.",
+   "coverage": "weekly",
+   "last_ok": "2026-10-18",
+   "failed": false
+  },
+  {
+   "name": "The Freelance Writing Network",
+   "url": "https://www.thefreelancewritingnetwork.com/",
+   "cat": "freelance",
+   "note": "Newsletter with freelance writing opportunities and advice.",
+   "coverage": "weekly",
+   "last_ok": "2026-10-18",
+   "failed": false
+  },
+  {
+   "name": "The Open Notebook",
+   "url": "https://www.theopennotebook.com/",
+   "cat": "training",
+   "note": "Nonprofit that helps science journalists improve their skills.",
+   "coverage": "direct",
+   "last_ok": null,
+   "failed": false
+  },
+  {
+   "name": "The Open Notebook: pitch database",
+   "url": "https://www.theopennotebook.com/pitches/",
+   "cat": "freelance",
+   "note": "Annotated science-journalism pitches that worked, to learn from.",
+   "coverage": "direct",
+   "last_ok": null,
+   "failed": false
+  },
+  {
+   "name": "The Stringer Foundation",
+   "url": "https://stringerjournalism.org/",
+   "cat": "funders",
+   "note": "Cash awards for journalists who expose abuses of power, with safety and legal support for vetted applicants.",
+   "coverage": "weekly",
+   "last_ok": "2026-10-18",
+   "failed": false
+  },
+  {
+   "name": "Toepfer Stiftung: European Collaborative Journalism Programme",
+   "url": "https://www.toepfer-stiftung.de/en/what-we-do/european-collaborative-journalism-programme",
+   "cat": "funders",
+   "note": "Training and networking programme, run with Arena, where European journalists build cross-border investigations together.",
+   "coverage": "weekly",
+   "last_ok": "2026-10-18",
+   "failed": false
+  },
+  {
+   "name": "UC Berkeley journalism fellowships",
+   "url": "https://fellowships.journalism.berkeley.edu/",
+   "cat": "funders",
+   "note": "Berkeley's fellowship hub, including reporting grants and local-news placements in California.",
+   "coverage": "weekly",
+   "last_ok": "2026-10-18",
+   "failed": false
+  }
+ ]
+}
