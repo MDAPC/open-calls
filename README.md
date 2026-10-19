@@ -6,7 +6,7 @@ Grants, fellowships, jobs and support for journalists, checked every week.
 
 **Beta.**
 
-- This first version reads 32 journalism opportunity sites. A wider scanner, with more sources, is coming soon.
+- This first version reads 38 journalism opportunity sites. A wider scanner, with more sources, is coming soon.
 - The agentic scanner's code will be open sourced soon.
 
 ## How it works

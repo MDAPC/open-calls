@@ -10,10 +10,10 @@
  "repo": "https://github.com/MDAPC/open-calls",
  "site": "https://mdapc.github.io/open-calls/",
  "counts": {
-  "open": 64,
+  "open": 73,
   "watching": 9,
-  "sites": 46,
-  "weekly": 32
+  "sites": 52,
+  "weekly": 38
  },
  "items": [
   {
@@ -2041,6 +2041,285 @@
    "via_aggregator": true,
    "first_seen": "2026-10-19",
    "checked": "2026-10-19"
+  },
+  {
+   "id": "j-54c62de23b",
+   "title": "RSF assistance to journalists and media",
+   "org": "Reporters Without Borders (RSF)",
+   "url": "https://rsf.org/en/assistance-journalists-and-media",
+   "kind": "support",
+   "deadline": null,
+   "deadline_note": "ongoing",
+   "open_to": "Journalists of all nationalities facing critical situations, journalists in exile, and local media or press freedom organisations; RSF cannot grant every request",
+   "regions": [
+    "any"
+   ],
+   "who": [
+    "exiled",
+    "newsroom"
+   ],
+   "format": null,
+   "amount": "Free loan of protective vest or helmet against a refundable deposit (EUR 2,000 per vest, EUR 500 per helmet); other aid amounts not stated",
+   "topics": [
+    "safety"
+   ],
+   "languages": [],
+   "summary": "RSF offers journalists and media travel insurance, protective-gear loans, emergency financial and administrative aid and asylum support; not every request can be met.",
+   "source": {
+    "name": "RSF (Reporters Without Borders): assistance to journalists",
+    "url": "https://rsf.org/en/assistance-journalists-and-media"
+   },
+   "via_aggregator": false,
+   "first_seen": "2026-10-19",
+   "checked": "2026-10-19"
+  },
+  {
+   "id": "j-45c0bf4dd2",
+   "title": "RSF Digital Security Lab",
+   "org": "Reporters Without Borders (RSF)",
+   "url": "https://rsf.org/en/digital-security-lab",
+   "kind": "support",
+   "deadline": null,
+   "deadline_note": "ongoing",
+   "open_to": "Journalists affected by, or with good reason to believe they have suffered, a digital attack; priority is given to cases meeting set criteria, others only if capacity allows",
+   "regions": [
+    "any"
+   ],
+   "who": [],
+   "format": null,
+   "amount": null,
+   "topics": [
+    "safety",
+    "tech-ai"
+   ],
+   "languages": [],
+   "summary": "Forensic service that checks journalists' devices and accounts for malware, phishing and account takeovers; it cannot provide incident response or prove a device is clean.",
+   "source": {
+    "name": "RSF Digital Security Lab",
+    "url": "https://rsf.org/en/digital-security-lab"
+   },
+   "via_aggregator": false,
+   "first_seen": "2026-10-19",
+   "checked": "2026-10-19"
+  },
+  {
+   "id": "j-8be0dabd6e",
+   "title": "RSF security training programme for Hong Kong journalists",
+   "org": "Reporters Without Borders (RSF)",
+   "url": "https://training.rsf.org/training-programme/",
+   "kind": "training",
+   "deadline": null,
+   "deadline_note": "ongoing",
+   "open_to": "Hong Kong media outlets and independent journalists, professional and non-professional; the planning team selects participants by profile and need",
+   "regions": [
+    "asia"
+   ],
+   "who": [],
+   "format": null,
+   "amount": null,
+   "topics": [
+    "safety"
+   ],
+   "languages": [],
+   "summary": "Digital and physical security training for Hong Kong media and independent journalists, in groups of 15 to 25; register through the site's contact form.",
+   "source": {
+    "name": "RSF training",
+    "url": "https://training.rsf.org/training-programme/"
+   },
+   "via_aggregator": false,
+   "first_seen": "2026-10-19",
+   "checked": "2026-10-19"
+  },
+  {
+   "id": "j-83a5755037",
+   "title": "Reporter ohne Grenzen support for journalists [Unterstützung für Journalist*innen]",
+   "org": "Reporter ohne Grenzen (RSF Germany)",
+   "url": "https://www.reporter-ohne-grenzen.de/support-for-journalists",
+   "kind": "support",
+   "deadline": null,
+   "deadline_note": "ongoing",
+   "open_to": "Threatened journalists and media workers worldwide whose threat or persecution is a direct result of their reporting",
+   "regions": [
+    "any"
+   ],
+   "who": [
+    "exiled"
+   ],
+   "format": null,
+   "amount": null,
+   "topics": [
+    "safety"
+   ],
+   "languages": [
+    "en",
+    "de",
+    "ru"
+   ],
+   "summary": "Emergency administrative and financial aid for journalists under threat worldwide, with help in exile; it also runs Berlin fellowships for at-risk journalists.",
+   "source": {
+    "name": "Reporter ohne Grenzen (RSF Germany): support for journalists",
+    "url": "https://www.reporter-ohne-grenzen.de/was-wir-tun/unterstuetzung-fur-journalistinnen"
+   },
+   "via_aggregator": true,
+   "first_seen": "2026-10-19",
+   "checked": "2026-10-19"
+  },
+  {
+   "id": "m-rsf-93268",
+   "title": "Freelance editors-in-chief, journalists and copy editors [Rédacteurs en chef, journalistes et secrétaires de rédaction pigistes]",
+   "org": "Reporters Without Borders (RSF)",
+   "url": "https://rsf.org/en/node/93268",
+   "kind": "job",
+   "deadline": null,
+   "deadline_note": "no deadline stated",
+   "open_to": "Freelance editors-in-chief (3+ years' experience), journalists (3+ years in journalism) and French/English copy editors (2+ years); fluent English required",
+   "regions": [],
+   "who": [
+    "freelance"
+   ],
+   "format": null,
+   "amount": null,
+   "topics": [
+    "conflict-rights"
+   ],
+   "languages": [
+    "fr",
+    "en"
+   ],
+   "summary": "RSF seeks freelance editors-in-chief, reporters and French/English copy editors for its press-freedom publications; apply by email with CV and letter, reference PIGES.",
+   "source": {
+    "name": "RSF: Work for RSF",
+    "url": "https://rsf.org/en/work-rsf-0"
+   },
+   "via_aggregator": true,
+   "first_seen": "2026-10-19",
+   "checked": "2026-10-19"
+  },
+  {
+   "id": "m-rsf-96011",
+   "title": "Editorial Directorate intern, English-language content [Stagiaire à la direction éditoriale - attaché-e à l’édition des contenus anglophones]",
+   "org": "Reporters Without Borders (RSF)",
+   "url": "https://rsf.org/en/node/96011",
+   "kind": "job",
+   "deadline": null,
+   "deadline_note": "no deadline stated; start as soon as possible",
+   "open_to": "Students in journalism, translation, communication or similar (Bac+3 to Bac+5); native English speaker with at least B2 French; internship agreement required",
+   "regions": [],
+   "who": [
+    "students"
+   ],
+   "format": "hybrid: Paris, France",
+   "amount": "EUR 700 gross per month, plus 60% of meal vouchers and 100% of transport pass",
+   "topics": [
+    "conflict-rights"
+   ],
+   "languages": [
+    "en",
+    "fr"
+   ],
+   "summary": "Four-to-six-month internship in RSF's Paris editorial department, translating and editing journalistic content from French into English and helping with newsletters.",
+   "source": {
+    "name": "RSF: Work for RSF",
+    "url": "https://rsf.org/en/work-rsf-0"
+   },
+   "via_aggregator": true,
+   "first_seen": "2026-10-19",
+   "checked": "2026-10-19"
+  },
+  {
+   "id": "m-rsf-96182",
+   "title": "Middle East bureau intern [Stagiaire au bureau Moyen-Orient]",
+   "org": "Reporters Without Borders (RSF)",
+   "url": "https://rsf.org/en/node/96182",
+   "kind": "job",
+   "deadline": null,
+   "deadline_note": "no deadline stated; internship starts from 12 October 2026",
+   "open_to": "Students of journalism, political science, international studies, Arabic or related subjects; fluent Arabic plus French and/or English; full-time, no parallel classes; internship agreement required",
+   "regions": [
+    "mena"
+   ],
+   "who": [
+    "students"
+   ],
+   "format": "in person: Paris, France",
+   "amount": "EUR 700 gross per month, plus meal vouchers and 100% transport reimbursement",
+   "topics": [
+    "conflict-rights"
+   ],
+   "languages": [
+    "ar",
+    "fr",
+    "en"
+   ],
+   "summary": "Six-month full-time internship at RSF's Middle East bureau in Paris, monitoring press freedom in 15 countries, verifying information and writing dispatches; Arabic required.",
+   "source": {
+    "name": "RSF: Work for RSF",
+    "url": "https://rsf.org/en/work-rsf-0"
+   },
+   "via_aggregator": true,
+   "first_seen": "2026-10-19",
+   "checked": "2026-10-19"
+  },
+  {
+   "id": "m-rsf-96211",
+   "title": "Emergency Response and Security Officer, Dakar [Chargé.e de réponse aux urgences et sécurité], ref. Crises Dakar 26",
+   "org": "Reporters Without Borders (RSF)",
+   "url": "https://rsf.org/en/node/96211",
+   "kind": "job",
+   "deadline": "2026-10-20",
+   "deadline_note": "page says applications must be sent before 20 October 2026",
+   "open_to": "Degree in international relations, political or social sciences, security or equivalent; 5+ years in international project management and/or emergency security; English required, French a plus",
+   "regions": [
+    "africa"
+   ],
+   "who": [],
+   "format": "in person: Dakar, Senegal",
+   "amount": "2,482,984 XOF gross with housing allowance; local fixed-term contract",
+   "topics": [
+    "safety"
+   ],
+   "languages": [
+    "en",
+    "fr"
+   ],
+   "summary": "Fixed-term post at RSF's Sub-Saharan Africa bureau in Dakar, coordinating emergency responses for journalists and media and managing security of RSF staff and activities.",
+   "source": {
+    "name": "RSF: Work for RSF",
+    "url": "https://rsf.org/en/work-rsf-0"
+   },
+   "via_aggregator": true,
+   "first_seen": "2026-10-19",
+   "checked": "2026-10-19"
+  },
+  {
+   "id": "m-rsf-96236",
+   "title": "Public tender: Journalism Trust Initiative Fast Track Program in Estonia",
+   "org": "Reporters Without Borders (RSF)",
+   "url": "https://rsf.org/en/node/96236",
+   "kind": "call",
+   "deadline": "2026-11-06",
+   "deadline_note": "applications reviewed on a rolling basis; early applications encouraged",
+   "open_to": "Service-provider organisations (not individual freelancers) with expertise in the Estonian media landscape and in training and capacity building for journalists and media; registration certificate required",
+   "regions": [
+    "europe"
+   ],
+   "who": [],
+   "format": null,
+   "amount": "Budget EUR 10,000",
+   "topics": [
+    "media-business"
+   ],
+   "languages": [
+    "en"
+   ],
+   "summary": "Service providers are sought to help at least ten Estonian media outlets publish Journalism Trust Initiative transparency reports over four months from mid-November 2026.",
+   "source": {
+    "name": "RSF: Work for RSF",
+    "url": "https://rsf.org/en/work-rsf-0"
+   },
+   "via_aggregator": true,
+   "first_seen": "2026-10-19",
+   "checked": "2026-10-19"
   }
  ],
  "watching": [
@@ -2443,12 +2722,66 @@
    "failed": false
   },
   {
+   "name": "Reporter ohne Grenzen (RSF Germany): jobs",
+   "url": "https://www.reporter-ohne-grenzen.de/ueber-uns/jobs",
+   "cat": "jobs",
+   "note": "Jobs at the German section of RSF in Berlin.",
+   "coverage": "weekly",
+   "last_ok": "2026-10-19",
+   "failed": false
+  },
+  {
+   "name": "Reporter ohne Grenzen (RSF Germany): support for journalists",
+   "url": "https://www.reporter-ohne-grenzen.de/support-for-journalists",
+   "cat": "networks",
+   "note": "Berlin: emergency financial and administrative help for threatened journalists, and fellowship programmes in Berlin.",
+   "coverage": "weekly",
+   "last_ok": "2026-10-19",
+   "failed": false
+  },
+  {
    "name": "ResponseSource",
    "url": "https://www.responsesource.com/",
    "cat": "tools",
    "note": "Media tools; its enquiry service helps journalists find sources and experts.",
    "coverage": "direct",
    "last_ok": null,
+   "failed": false
+  },
+  {
+   "name": "RSF (Reporters Without Borders): assistance to journalists",
+   "url": "https://rsf.org/en/assistance-journalists-and-media",
+   "cat": "networks",
+   "note": "RSF in Paris: travel insurance, loan of protective equipment, financial and administrative help, and services for media.",
+   "coverage": "weekly",
+   "last_ok": "2026-10-19",
+   "failed": false
+  },
+  {
+   "name": "RSF Digital Security Lab",
+   "url": "https://rsf.org/en/digital-security-lab",
+   "cat": "networks",
+   "note": "Help for journalists who think their devices or accounts are being targeted.",
+   "coverage": "weekly",
+   "last_ok": "2026-10-19",
+   "failed": false
+  },
+  {
+   "name": "RSF training",
+   "url": "https://training.rsf.org/training-programme/",
+   "cat": "training",
+   "note": "RSF training site: currently a programme for Hong Kong media and independent journalists, plus safety guides.",
+   "coverage": "weekly",
+   "last_ok": "2026-10-19",
+   "failed": false
+  },
+  {
+   "name": "RSF: jobs, freelance work and internships",
+   "url": "https://rsf.org/en/work-rsf-0",
+   "cat": "jobs",
+   "note": "Vacancies, freelance editing, internships and calls for tenders at RSF in Paris and its bureaux.",
+   "coverage": "weekly",
+   "last_ok": "2026-10-19",
    "failed": false
   },
   {
