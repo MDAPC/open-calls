@@ -189,6 +189,10 @@ h2 { display: inline-block; margin: 0; padding: 5px 12px 4px; background: var(--
 
 /* Resources directory */
 .dir { margin-top: 28px; }
+.thanks { max-width: 72ch; margin: 4px 0 20px; padding: 12px 14px; background: var(--card); border: 1.5px solid var(--ink); border-radius: 2px; }
+.thanks b { display: inline-block; margin-bottom: 6px; padding: 1px 7px; background: var(--yellow); border: 1.5px solid var(--ink); border-radius: 2px;
+  font: 600 11px/1.4 var(--f-mono); letter-spacing: .12em; text-transform: uppercase; }
+.thanks p { margin: 0; font-size: 15.5px; line-height: 1.55; }
 .dir-tools { display: flex; flex-wrap: wrap; gap: 10px 14px; align-items: center; margin: 16px 0 10px; }
 .dir-tools .field { max-width: 300px; }
 .dir-group { margin-top: 30px; }
@@ -318,6 +322,10 @@ footer { margin-top: 52px; padding-block: 16px 34px; border-top: 2px solid var(-
   <section class="wrap dir" aria-labelledby="dir-h">
     <h2 id="dir-h">Resources</h2>
     <p class="lede">Every site on our list. Sites marked <b>Checked weekly</b> feed the open calls; the others are worth visiting yourself, and the note says why. A red mark means we could not read that site this week: it does not mean there are no calls there.</p>
+    <aside class="thanks" aria-label="Special thanks">
+      <b>Special thanks</b>
+      <p>The first list of sites on this board comes from a workshop by <strong>Alexenia Dimitrova</strong>, freelance journalist and media trainer: &ldquo;Grants, Platforms, Pitches and Networks: How to be Published and Get Paid as a Journalist in Exile&rdquo;, at the Exile Media Lab of the <a href="https://koerber-stiftung.de/en/projects/exile-media-forum/exile-media-forum-2026/" target="_blank" rel="noopener">Exile Media Forum 2026</a>, organised by K&ouml;rber-Stiftung in Hamburg on 13 and 14 October. Thank you to her and to the forum.</p>
+    </aside>
     <div class="dir-tools">
       <input class="field" id="dq" type="search" placeholder="Search sites" autocomplete="off" aria-label="Search sites">
       <div class="chips" id="dcov"></div>

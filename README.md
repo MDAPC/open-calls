@@ -26,6 +26,10 @@ Deadlines and rules change. Treat each card as a pointer and read the call on th
 
 The data is free to reuse with credit (CC BY 4.0). The code is under the MIT licence.
 
+## Thanks
+
+The first list of sites comes from a workshop by Alexenia Dimitrova, freelance journalist and media trainer: "Grants, Platforms, Pitches and Networks: How to be Published and Get Paid as a Journalist in Exile", at the Exile Media Lab of the [Exile Media Forum 2026](https://koerber-stiftung.de/en/projects/exile-media-forum/exile-media-forum-2026/), organised by Körber-Stiftung in Hamburg on 13 and 14 October. Thank you to her and to the forum.
+
 ## Suggest a source or report a mistake
 
 Write to mahmoudalaashiq@proton.me.
